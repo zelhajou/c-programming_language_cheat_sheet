@@ -15,5 +15,7 @@ void deleteElement(int *arr, int index, int size);
 void printArray(int arr[], int length);
 // Update an element
 void updateElement(int arr[], int index, int newValue);
+// Access Elements:
+int getElement(int arr[], int index);
 
 #endif
