@@ -1,10 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#define MAX 4
+#include "stack.h"
 
 int stack_arr[MAX];
 int top = -1;
-
 
 int isFull()
 {
@@ -18,6 +15,16 @@ int isEmpty()
 	if (top == -1)
 		return 1;
 	return 0;
+}
+
+int peek()
+{
+	if (isEmpty())
+	{
+		printf("Stack underflow\n");
+		exit(1);
+	}
+	return stack_arr[top];
 }
 
 void push(int data)
@@ -52,18 +59,6 @@ void print(void)
 		return;
 	}
 	for (i = top; i >= 0; i--)
-		printf("%d\n", stack_arr[i]);
+		printf("%d ", stack_arr[i]);
 }
 
-int main()
-{
-	int data;
-	push(1);
-	push(2);
-	push(3);
-	push(4);
-	data = pop();
-	data = pop();
-
-	print();
-}

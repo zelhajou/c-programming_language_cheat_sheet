@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include "stack.h"
 
-int main(void)
+int main()
 {
 	int choice, data;
 	while(1)
@@ -24,6 +24,16 @@ int main(void)
 				data = pop();
 				printf("Deleted element is %d\n", data);
 				break;
+			case 3:
+				printf("The topmost element of the stack is %d\n", peek());
+				break;
+			case 4:
+				print();
+				break;
+			case 5:
+				exit(1);
+			default:
+				printf("Wrong choice\n");
 			}
 	}
 	return 0;
