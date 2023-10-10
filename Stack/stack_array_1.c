@@ -1,4 +1,4 @@
-#include "stack.h"
+#include "stack_array.h"
 
 int stack_arr[MAX];
 int top = -1;
@@ -29,7 +29,8 @@ int peek()
 
 void push(int data)
 {
-	if (isFull()) {
+	if (isFull())
+	{
 		printf("Stack overflow\n");
 		return;
 	}
@@ -54,11 +55,10 @@ void print(void)
 {
 	int i;
 	if (isEmpty())
-	{	
+	{
 		printf("Stack underflow");
 		return;
 	}
 	for (i = top; i >= 0; i--)
 		printf("%d ", stack_arr[i]);
 }
-
