@@ -64,7 +64,7 @@ void add_at_end(struct node **head, int data)
 // Function to create a new node with the given data
 struct node *createNode(int data)
 {
-	struct node *newNode = (struct Node *)malloc(sizeof(struct node));
+	struct node *newNode = (struct node *)malloc(sizeof(struct node));
 	if (newNode == NULL)
 	{
 		perror("Memory allocation failed");
@@ -145,6 +145,9 @@ int main()
 		printf("%d ", ptr->data);
 		ptr = ptr->link;
 	}
+	head = del_first(head);
+	printf("\n");
+	print_data(head);
 }
 
 // int main()
