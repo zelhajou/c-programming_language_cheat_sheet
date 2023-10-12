@@ -67,48 +67,59 @@ void reverse_stack(struct node **top)
 	struct node *top1 = NULL;
 	struct node *top2 = NULL;
 
+	// Pushing onto temp stack 1
 	while (*top != NULL)
 	{
 		push(pop(top), &top1);
+	}
+	// Pushing onto temp stack 2
+	while (top1 != NULL)
+	{
+		push(pop(&top1), &top2);
+	}
+	// Pushing onto original stack
+	while (top2 != NULL)
+	{
+		push(pop(&top2), top);
 	}
 }
 int main()
 {
 	int data;
 	struct node *top = NULL;
-	struct node *top1 = NULL;
-	struct node *top2 = NULL;
-	push(1, &top);
-	push(2, &top);
-	push(3, &top);
-	print(top);
+	int choice;
 
-	/* From original stack to temporary stack 1 */
-	data = pop(&top);
-	push(data, &top1);
-	data = pop(&top);
-	push(data, &top1);
-	data = pop(&top);
-	push(data, &top1);
-	print(top);
-	print(top1);
-	/*From original stack to temporary stack 2*/
-	data = pop(&top1);
-	push(data, &top2);
-	data = pop(&top1);
-	push(data, &top2);
-	data = pop(&top1);
-	push(data, &top2);
-	print(top1);
-	print(top2);
-	/*From original stack to original stack*/
-	data = pop(&top2);
-	push(data, &top);
-	data = pop(&top2);
-	push(data, &top);
-	data = pop(&top2);
-	push(data, &top);
-	print(top2);
+	while (1)
+	{
+		printf("1. Push\n");
+		printf("2. Print\n");
+		printf("3. Reverse the stack\n");
+		printf("4. quit\n");
+		printf("Enter your choice:\n");
+		scanf("%d", &choice);
+		switch (choice)
+		{
+		case 1:
+			printf("Enter the element to be pushed: ");
+			scanf("%d", &data);
+			push(data, &top);
+			break;
+		case 2:
+			print(top);
+			break;
+		case 3:
+			reverse_stack(&top);
+			printf("Stack is reversed.\n");
+			break;
+		case 4:
+			exit(1);
+		default:
+			printf("wrong choice");
+			break;
+		}
+	}
+
+	reverse_stack(&top);
 	print(top);
 
 	return 0;
