@@ -182,7 +182,31 @@ void del_last2(struct node *head)
 	}
 }
 
-void del_pos(struct mode **head, int position)
+struct node *del_list(struct node *head)
+{
+	struct node *temp = head;
+
+	while (temp != NULL)
+	{
+		temp - temp->link;
+		free(head);
+		head = temp;
+	}
+	return head;
+}
+
+// Function to free memory occupied by the list
+void freeList(struct node *head)
+{
+	while (head != NULL)
+	{
+		struct node *temp = head;
+		head = head->link;
+		free(temp);
+	}
+}
+
+void del_pos(struct node **head, int position)
 {
 	struct node *current = *head;
 	struct node *previous = *head;
@@ -202,6 +226,9 @@ void del_pos(struct mode **head, int position)
 			current = current->link;
 			position--;
 		}
+		previous->link = current->link;
+		free(current);
+		current = NULL;
 	}
 }
 
@@ -219,6 +246,8 @@ int main()
 	displayList(head);
 	del_first(&head);
 	del_last(head);
+	displayList(head);
+	del_pos(&head, 1);
 	displayList(head);
 }
 
