@@ -188,7 +188,7 @@ struct node *del_list(struct node *head)
 
 	while (temp != NULL)
 	{
-		temp - temp->link;
+		temp = temp->link;
 		free(head);
 		head = temp;
 	}
