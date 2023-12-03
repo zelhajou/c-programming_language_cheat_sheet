@@ -169,5 +169,3 @@ So you should use **size_t whenever you mean to return a size in bytes, and ssi
 */
 
 ```
-
-## Type Safety
