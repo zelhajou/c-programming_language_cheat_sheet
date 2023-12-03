@@ -1,6 +1,6 @@
 # practice-c
 
-## Basic & Syntax
+# Basic & Syntax
 
 ```c
 int main() { 
@@ -59,13 +59,6 @@ All variables use **data-type** during declaration to restrict the type of data 
 
 #### Classification of data :
 
-- Primary
-	- `int` `char` `float` `double` `void`
-- Derived
-	- `Function` `Array` `Pointer` `Reference` `String`
-- User-Defined
-	- `Structure` `Union` `Class` `Enum` `Typedef`
-
 ##### Primary Data Types (Primitive): `int` `char` `float` `double` `void`
 
 ```c
@@ -89,6 +82,7 @@ _Bool myBool = 1;
 - Arrays
 - Pointers
 - Functions
+- [Strings](https://github.com/zelhajou/practice-c/blob/main/Variables%20and%20Data%20Types/String.md)
 
 ##### User-Defined Types: `Structure` `Union` `Class` `Enum` `Typedef`
 
