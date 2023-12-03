@@ -133,7 +133,7 @@ uint age = 25;
 Point origin;
 ```
 
-## Constant Variables
+### Constant Variables
 
 Constants are used in computer programs to store a single piece of data that has a fixed value and cannot change during the program
 
@@ -142,7 +142,7 @@ Constants are used in computer programs to store a single piece of data that has
 const data_type name = value;
 ```
 
-## Type Casting/Conversion :
+### Type Casting/Conversion :
 
 Casting means converting data from one data type to another.
 
