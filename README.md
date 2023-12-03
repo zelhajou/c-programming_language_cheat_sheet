@@ -1,7 +1,5 @@
 # practice-c
 
-# Basic & Syntax
-
 ```c
 int main() { 
 	printf("Hello, World!\n");
@@ -9,4 +7,5 @@ int main() {
 }
 ```
 
-## Variables and Data Types
+- **Basic & Syntax**
+	- [Variables and Data Types](https://github.com/zelhajou/practice-c/tree/main/Variables%20and%20Data%20Types)
