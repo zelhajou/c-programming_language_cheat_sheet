@@ -1,6 +1,6 @@
 # practice-c
 
-## Basic & Syntax
+# Basic & Syntax
 
 ```c
 int main() { 
