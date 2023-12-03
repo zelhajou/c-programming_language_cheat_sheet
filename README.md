@@ -8,4 +8,4 @@ int main() {
 ```
 
 - **Basic & Syntax**
-	- [Variables and Data Types](https://github.com/zelhajou/practice-c/tree/main/Variables%20and%20Data%20Types)
+	- [Variables and Data Types](https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Variables%20and%20Data%20Types)
