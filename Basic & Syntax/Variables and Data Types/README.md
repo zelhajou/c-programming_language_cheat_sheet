@@ -78,6 +78,7 @@ _Bool myBool = 1;
 - Arrays
 - Pointers
 - Functions
+- [String](https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Variables%20and%20Data%20Types/String)
 
 ##### User-Defined Types: `Structure` `Union` `Class` `Enum` `Typedef`
 
