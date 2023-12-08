@@ -51,6 +51,12 @@
 <td>
  
 ```c
+
+/*
+* Multi-line
+* Comment.
+*/
+
 #include<stdio.h> // Include header files
 
 int main() // main() function must be there
@@ -128,6 +134,35 @@ return 0; /_ indicate that program ended successfuly _/
 </tr>
 
 <tr>
+<td>Math Fucntions</td>
+<td>
+<code>abs(x)</code>
+<code>sqrt(x)</code>
+<code>pow(x, y)</code>
+<code>sin(x), cos(x), tan(x)</code>
+<code>log(x)</code>
+<code>ceil(x)</code>
+<code>floor(x)</code>
+<code>round(x)</code>
+<code>fmod(x, y)</code>
+<code>fabs(x)</code>
+<code>asin(x)</code>
+<code>atan(x)</code>
+<code>cosh(x)</code>
+<code>sinh(x)</code>
+<code>tanh(x)</code>
+<code>exp(x)</code>
+<code>log10(x)</code>
+<code>cbrt(x)</code>
+<code>hypot(x, y)</code>
+<code>fmin(x, y)</code>
+<code>fmax(x, y)</code>
+<code>isnan(x)</code>
+<code>isinf(x)</code>
+</td>
+</tr>
+
+<tr>
 <td>
 <a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Control%20Flow">Control Flow</a>
 </td>
@@ -160,7 +195,6 @@ Output: <code>printf()</code>
 Unformatted: <br>
 Input: <code>getchar()</code> <code>gets()</code> <br>
 Output: <code>putchar()</code> <code>puts()</code>
-
 </li>
 </ul>
 </td>
