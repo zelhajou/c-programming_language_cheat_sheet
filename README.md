@@ -133,8 +133,9 @@ return 0; /_ indicate that program ended successfuly _/
 </tr>
 
 <tr>
-<td>Math Fucntions</td>
+<td>Fucntions</td>
 <td>
+Math Fucntions:<br>
 <code>abs(x)</code>
 <code>sqrt(x)</code>
 <code>pow(x, y)</code>
