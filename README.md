@@ -199,4 +199,9 @@ Output: <code>putchar()</code> <code>puts()</code>
 </td>
 </tr>
 
+<tr>
+<td>Error Handlling</td>
+<td></td>
+</tr>
+
 </table>
