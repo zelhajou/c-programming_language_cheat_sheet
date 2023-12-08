@@ -1,6 +1,5 @@
-# practice-c
+# C Language
 
-## C Language Basic Syntax Rules High level language
 
 <table>
 <tr>
@@ -50,42 +49,84 @@
 <tr>
 <td>Hello World</td>
 <td>
-	
+ 
 ```c
 #include<stdio.h> // Include header files
 
 int main() // main() function must be there
-{ 
-	printf("Hello, World!\n"); // semicolon after each statement
-	return 0; /* indicate that program ended successfuly */
+{
+printf("Hello, World!\n"); // semicolon after each statement
+return 0; /_ indicate that program ended successfuly _/
 } // program enclosed by curly braces
+
 ```
+
 </td>
 </tr>
 
 <tr>
-<td>[C Keywords]()</td>
-<td></td>
+<td>Keywords</td>
+<td>
+<code>auto</code>
+<code>break</code>
+<code>case</code>
+<code>char</code>
+<code>const</code>
+<code>continue</code>
+<code>default</code>
+<code>do</code>
+<code>double</code>
+<code>else</code>
+<code>enum</code>
+<code>extern</code>
+<code>float</code>
+<code>for</code>
+<code>goto</code>
+<code>if</code>
+<code>int</code>
+<code>long</code>
+<code>register</code>
+<code>return</code>
+<code>short</code>
+<code>signed</code>
+<code>sizeof</code>
+<code>static</code>
+<code>struct</code>
+<code>switch</code>
+<code>typedef</code>
+<code>union</code>
+<code>unsigned</code>
+<code>void</code>
+<code>volatile</code>
+<code>while</code>
+</td>
 </tr>
 
 <tr>
-<td>[Operators](https://github.com/zelhajou/practice-c/blob/main/Basic%20%26%20Syntax/Operators/Operators.md)</td>
-<td></td>
-</tr>
+<td>
 
-<tr>
-<td>[Control Structures](https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Control%20Structures)</td>
-<td></td>
-</tr>
+<a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Operators">Operators</a>
 
-<tr>
-<td>[Input and Output](https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Input%20and%20Output)
 </td>
 <td></td>
 </tr>
 
+<tr>
+<td>
+<a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Control%20Flow">Control Flow</a>
+</td>
+<td></td>
+</tr>
 
+<tr>
+<td>
+<a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Input%20and%20Output">
+Input and Output
+</a>
+</td>
+<td></td>
+</tr>
 
 </table>
 
-
+```
