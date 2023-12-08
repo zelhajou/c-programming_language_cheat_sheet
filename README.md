@@ -133,9 +133,9 @@ return 0; /_ indicate that program ended successfuly _/
 </tr>
 
 <tr>
-<td>Fucntions</td>
+<td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions">Fucntions</a></td>
 <td>
-Math Fucntions:<br>
+<a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions">Math Fucntions:</a><br>
 <code>abs(x)</code>
 <code>sqrt(x)</code>
 <code>pow(x, y)</code>
