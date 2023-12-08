@@ -132,10 +132,18 @@ return 0; /_ indicate that program ended successfuly _/
 </td>
 </tr>
 
+
+
+
+
+
 <tr>
+
+
+
 <td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions">Fucntions</a></td>
 <td>
-<a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions">Math Fucntions:</a><br>
+<a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions/Math%20Functions">Math Fucntions:</a><br>
 <code>abs(x)</code>
 <code>sqrt(x)</code>
 <code>pow(x, y)</code>
@@ -161,6 +169,8 @@ return 0; /_ indicate that program ended successfuly _/
 <code>isinf(x)</code>
 </td>
 </tr>
+
+
 
 <tr>
 <td>
@@ -204,5 +214,29 @@ Output: <code>putchar()</code> <code>puts()</code>
 <td>Error Handlling</td>
 <td></td>
 </tr>
+
+<tr>
+<td>Header files</td>
+<td>
+<code>stdio.h</code>
+<code>stdlib.h</code>
+<code>string.h</code>
+<code>math.h</code>
+<code>time.h</code>
+<code>ctype.h</code>
+<code>stdarg.h</code>
+<code>stddef.h</code>
+<code>stdbool.h</code>
+<code>limits.h</code>
+<code>float.h</code>
+<code>errno.h</code>
+<code>assert.h</code>
+<code>signal.h</code>
+<code>ctype.h</code>
+<code>locale.h</code>
+<code>setjmp.h</code>
+</td>
+</tr>
+<tr>
 
 </table>
