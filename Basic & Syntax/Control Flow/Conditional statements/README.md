@@ -9,8 +9,6 @@ There are the following types of conditional statements in C.
 - `Nested If-else` statement.
 - `If-Else If` ladder.
 - `Switch` statement.
-- Ternary Operator (Conditional Expression):
-
 
 # If-Else Statement:
 
@@ -52,7 +50,3 @@ switch (day) {
 }
 
 ```
-
-# Ternary Operator (Conditional Expression):
-
-[[C]]: C does not have a direct ternary operator like the other languages.

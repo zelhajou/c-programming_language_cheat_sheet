@@ -55,6 +55,14 @@ All variables use **data-type** during declaration to restrict the type of data 
 - User-Defined
 	- `Structure` `Union` `Class` `Enum` `Typedef`
 
+| Types          | Size in bytes | Keyword |
+|----------------|---------------|---------|
+| Integer        | 2             | int     |
+| Floating-point | 4             | float   |
+| Double         | 8             | double  |
+| Character      | 1             | char    |
+
+
 ##### Primary Data Types (Primitive): `int` `char` `float` `double` `void`
 
 ```c

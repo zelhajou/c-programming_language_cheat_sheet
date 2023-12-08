@@ -18,8 +18,6 @@ In mathematics and computer programming, an operator is a character that represe
 
 ```c
 && (logical AND), || (logical OR), ! (logical NOT).
-
-Python: and (logical AND), or (logical OR), not (logical NOT).
 ```
 
 # Assignment Operators

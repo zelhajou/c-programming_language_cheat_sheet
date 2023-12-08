@@ -101,21 +101,43 @@ return 0; /_ indicate that program ended successfuly _/
 <code>while</code>
 </td>
 </tr>
-
 <tr>
 <td>
 
 <a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Operators">Operators</a>
-
 </td>
-<td></td>
+<td>
+<ul>
+<li>
++, -, *, /, % (modulo).
+</li>
+<li>
+==, !=, <, >, <=, >=
+</li>
+<li>
+&& (logical AND), || (logical OR), ! (logical NOT).
+</li>
+<li>
+= (assignment), +=, -=, *=, /=, %=
+</li>
+<li>
+&, |, ^ (XOR), ~ (complement), << (left shift), >> (right shift).
+</li>
+</ul>
+</td>
 </tr>
 
 <tr>
 <td>
 <a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Control%20Flow">Control Flow</a>
 </td>
-<td></td>
+<td>
+<ul>
+<li>
+Conditional statements : <code>If-else</code> <code>Switch</code>
+</li>
+</ul>
+</td>
 </tr>
 
 <tr>
