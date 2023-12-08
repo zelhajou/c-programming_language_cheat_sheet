@@ -136,6 +136,9 @@ return 0; /_ indicate that program ended successfuly _/
 <li>
 Conditional statements : <code>If-else</code> <code>Switch</code>
 </li>
+<li>
+Loops : <code>for</code> <code>while</code> <code>do-while</code> <code>goto</code>
+</li>
 </ul>
 </td>
 </tr>
@@ -143,12 +146,24 @@ Conditional statements : <code>If-else</code> <code>Switch</code>
 <tr>
 <td>
 <a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Input%20and%20Output">
-Input and Output
+Input & Output
 </a>
 </td>
-<td></td>
+<td>
+<ul>
+<li>
+Formatted: <br>
+Input: <code>scanf()</code> <br>
+Output: <code>printf()</code>
+</li>
+<li>
+Unformatted: <br>
+Input: <code>getchar()</code> <code>gets()</code> <br>
+Output: <code>putchar()</code> <code>puts()</code>
+
+</li>
+</ul>
+</td>
 </tr>
 
 </table>
-
-```
