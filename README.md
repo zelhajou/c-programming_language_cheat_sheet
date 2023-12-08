@@ -1,5 +1,4 @@
-# C Language
-
+# C Programming Language
 
 <table>
 <tr>
