@@ -31,18 +31,3 @@ In mathematics and computer programming, an operator is a character that represe
 ```c
 &, |, ^ (XOR), ~ (complement), << (left shift), >> (right shift).
 ```
-
-# Shorthand operators
-
-| Operator | Example | Equivalent construct |
-|----------|---------|------------|
-| +        | a=a+b   | a+=b       |
-| -        | a=a-b   | a-=b       |
-| *        | a=a*b   | a*=b       |
-| /        | a=a/b   | a/=b       |
-| %        | a=a%b   | a%=b       |
-| &        | a=a&b   | a&=b       |
-| |        | a=a|b   | a|=b       |
-| ^        | a=a^b   | a^=b       |
-| <<       | a=a<<b  | a<<=b      |
-| >>       | a=a>>b  | a>>=b      |

@@ -116,23 +116,14 @@ return 0; /_ indicate that program ended successfuly _/
 <a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Operators">Operators</a>
 </td>
 <td>
-<ul>
-<li>
-+, -, *, /, % (modulo).
-</li>
-<li>
-==, !=, <, >, <=, >=
-</li>
-<li>
-&& (logical AND), || (logical OR), ! (logical NOT).
-</li>
-<li>
-= (assignment), +=, -=, *=, /=, %=
-</li>
-<li>
-&, |, ^ (XOR), ~ (complement), << (left shift), >> (right shift).
-</li>
-</ul>
+Arithmetic operators: <code>+, -, *, /, % (modulo).</code>
+Comparison Operators: <code>==, !=, <, >, <=, >=</code>
+Logical operators: <code>&& (logical AND), || (logical OR), ! (logical NOT).</code>
+
+Assignment Operators: <code>= (assignment), +=, -=, *=, /=, %=</code>
+
+Bitwise Operators: <code>&, |, ^ (XOR), ~ (complement), << (left shift), >> (right shift).</code>
+
 </td>
 </tr>
 
@@ -186,6 +177,7 @@ return 0; /_ indicate that program ended successfuly _/
 <code>ultoa()</code>
 </td>
 </tr>
+
 
 
 
@@ -259,14 +251,14 @@ Output: <code>putchar()</code> <code>puts()</code>
 <tr>
 <td>Preprocessor directives</td>
 <td>
-<code>#include</code>
-<code>#define</code>
-<code>#undef</code>
-<code>#ifdef / #ifndef</code>
-<code>#if / #elif / #else / #endif</code>
-<code>#line</code>
-<code>#error</code>
-<code>#pragma</code>
+<code>#include</code><br>
+<code>#define</code><br>
+<code>#undef</code><br>
+<code>#ifdef / #ifndef</code><br>
+<code>#if / #elif / #else / #endif</code><br>
+<code>#line</code><br>
+<code>#error</code><br>
+<code>#pragma</code><br>
 </td>
 </tr>
 <tr>
