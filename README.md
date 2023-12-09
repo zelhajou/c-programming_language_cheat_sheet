@@ -135,7 +135,7 @@ Bitwise Operators: <code>&, |, ^ (XOR), ~ (complement), << (left shift), >> (rig
 ```c
 abs(x);			sqrt(x);	pow(x, y);	sin(x),
 cos(x),			tan(x);		log(x);		ceil(x);
-floor(x);		round(x);	fmod(x, y); fabs(x);
+floor(x);		round(x);	fmod(x, y);	fabs(x);
 asin(x);		atan(x);	cosh(x);	sinh(x); 
 tanh(x);		exp(x);		log10(x);	cbrt(x);
 hypot(x, y);	fmin(x, y); fmax(x, y);	isnan(x);
