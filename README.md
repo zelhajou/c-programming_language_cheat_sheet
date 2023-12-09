@@ -46,6 +46,10 @@
 <td>Compiled language</td>
 </tr>
 <tr>
+<td>Development of C Program</td>
+<td> <code>Source Code</code> -> <code>Preprocessor (e.g., #include)</code> -> <code>Compiler (e.g., gcc)</code> -> <code>Linker (Combines Object Files)</code> -> <code>Executable Program</code> -> <code>Run the Program</code></td>
+</tr>
+<tr>
 <td>Hello World</td>
 <td>
  
@@ -235,6 +239,21 @@ Output: <code>putchar()</code> <code>puts()</code>
 <code>ctype.h</code>
 <code>locale.h</code>
 <code>setjmp.h</code>
+</td>
+</tr>
+<tr>
+
+<tr>
+<td>Preprocessor directives</td>
+<td>
+<code>#include</code>
+<code>#define</code>
+<code>#undef</code>
+<code>#ifdef / #ifndef</code>
+<code>#if / #elif / #else / #endif</code>
+<code>#line</code>
+<code>#error</code>
+<code>#pragma</code>
 </td>
 </tr>
 <tr>
