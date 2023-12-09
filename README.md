@@ -128,42 +128,16 @@ Bitwise Operators: <code>&, |, ^ (XOR), ~ (complement), << (left shift), >> (rig
 <td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions">Fucntions</a></td>
 <td>
 <a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions/Math%20Functions">Math Fucntions:</a><br>
-<code>abs(x)</code>
-<code>sqrt(x)</code>
-<code>pow(x, y)</code>
-<code>sin(x), cos(x), tan(x)</code>
-<code>log(x)</code>
-<code>ceil(x)</code>
-<code>floor(x)</code>
-<code>round(x)</code>
-<code>fmod(x, y)</code>
-<code>fabs(x)</code>
-<code>asin(x)</code>
-<code>atan(x)</code>
-<code>cosh(x)</code>
-<code>sinh(x)</code>
-<code>tanh(x)</code>
-<code>exp(x)</code>
-<code>log10(x)</code>
-<code>cbrt(x)</code>
-<code>hypot(x, y)</code>
-<code>fmin(x, y)</code>
-<code>fmax(x, y)</code>
-<code>isnan(x)</code>
-<code>isinf(x)</code><br>
+
+```c
+abs(x); sqrt(x); pow(x, y); sin(x), cos(x), tan(x); log(x); ceil(x); floor(x); round(x); fmod(x, y); fabs(x); asin(x); atan(x); cosh(x); sinh(x); tanh(x); exp(x); log10(x); cbrt(x); hypot(x, y); fmin(x, y); fmax(x, y); isnan(x); isinf(x); 
+```
 <a href="">Data Conversion Functions:</a><br>
-<code>atof()</code>
-<code>atoi()</code>
-<code>atol()</code>
-<code>ecvt()</code>
-<code>fcvt()</code>
-<code>gcvt()</code>
-<code>itoa()</code>
-<code>ltoa()</code>
-<code>strtod()</code>
-<code>strtol()</code>
-<code>strtoul()</code>
-<code>ultoa()</code>
+
+```c
+atof(); atoi(); atol(); ecvt(); fcvt(); gcvt(); itoa(); ltoa(); strtod(); strtol(); strtoul(); ultoa(); 
+```
+
 </td>
 </tr>
 
