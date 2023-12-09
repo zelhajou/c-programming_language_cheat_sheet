@@ -46,7 +46,7 @@
 <td>Compiled language</td>
 </tr>
 <tr>
-<td>Development of C Program</td>
+<td>Flow of Program</td>
 <td> <code>Source Code</code> -> <code>Preprocessor (e.g., #include)</code> -> <code>Compiler (e.g., gcc)</code> -> <code>Linker (Combines Object Files)</code> -> <code>Executable Program</code> -> <code>Run the Program</code></td>
 </tr>
 <tr>
@@ -170,7 +170,20 @@ return 0; /_ indicate that program ended successfuly _/
 <code>fmin(x, y)</code>
 <code>fmax(x, y)</code>
 <code>isnan(x)</code>
-<code>isinf(x)</code>
+<code>isinf(x)</code><br>
+<a href="">Data Conversion Functions:</a><br>
+<code>atof()</code>
+<code>atoi()</code>
+<code>atol()</code>
+<code>ecvt()</code>
+<code>fcvt()</code>
+<code>gcvt()</code>
+<code>itoa()</code>
+<code>ltoa()</code>
+<code>strtod()</code>
+<code>strtol()</code>
+<code>strtoul()</code>
+<code>ultoa()</code>
 </td>
 </tr>
 
