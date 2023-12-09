@@ -1,6 +1,7 @@
 # C Programming Language
 
 <table>
+
 <tr>
 <td> <b>Category</b> </td>
 <td> <b>Information</b> </td>
@@ -54,18 +55,17 @@
 <td>
  
 ```c
-
 /*
-* Multi-line
-* Comment.
+- Multi-line
+- Comment.
 */
 
 #include<stdio.h> // Include header files
 
 int main() // main() function must be there
 {
-printf("Hello, World!\n"); // semicolon after each statement
-return 0; /_ indicate that program ended successfuly _/
+	printf("Hello, World!\n"); // semicolon after each statement
+	return 0; // indicate that program ended successfuly
 } // program enclosed by curly braces
 
 ```
@@ -110,32 +110,21 @@ return 0; /_ indicate that program ended successfuly _/
 <code>while</code>
 </td>
 </tr>
+
 <tr>
 <td>
-
 <a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Operators">Operators</a>
 </td>
 <td>
-Arithmetic operators: <code>+, -, *, /, % (modulo).</code>
-Comparison Operators: <code>==, !=, <, >, <=, >=</code>
-Logical operators: <code>&& (logical AND), || (logical OR), ! (logical NOT).</code>
-
-Assignment Operators: <code>= (assignment), +=, -=, *=, /=, %=</code>
-
-Bitwise Operators: <code>&, |, ^ (XOR), ~ (complement), << (left shift), >> (right shift).</code>
-
+Arithmetic operators: <code>+, -, *, /, % (modulo).</code><br>
+Comparison Operators: <code>==, !=, <, >, <=, >=</code><br>
+Logical operators: <code>&& (logical AND), || (logical OR), ! (logical NOT).</code><br>
+Assignment Operators: <code>= (assignment), +=, -=, *=, /=, %=</code><br>
+Bitwise Operators: <code>&, |, ^ (XOR), ~ (complement), << (left shift), >> (right shift).</code><br>
 </td>
 </tr>
 
-
-
-
-
-
 <tr>
-
-
-
 <td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions">Fucntions</a></td>
 <td>
 <a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions/Math%20Functions">Math Fucntions:</a><br>
@@ -178,22 +167,13 @@ Bitwise Operators: <code>&, |, ^ (XOR), ~ (complement), << (left shift), >> (rig
 </td>
 </tr>
 
-
-
-
 <tr>
 <td>
 <a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Control%20Flow">Control Flow</a>
 </td>
 <td>
-<ul>
-<li>
-Conditional statements : <code>If-else</code> <code>Switch</code>
-</li>
-<li>
-Loops : <code>for</code> <code>while</code> <code>do-while</code> <code>goto</code>
-</li>
-</ul>
+<b>Conditional statements:</b> <code>If-else</code> <code>Switch</code><br>
+<b>Loops:</b> <code>for</code> <code>while</code> <code>do-while</code> <code>goto</code>
 </td>
 </tr>
 
@@ -204,18 +184,15 @@ Input & Output
 </a>
 </td>
 <td>
-<ul>
-<li>
-Formatted: <br>
-Input: <code>scanf()</code> <br>
-Output: <code>printf()</code>
-</li>
-<li>
-Unformatted: <br>
-Input: <code>getchar()</code> <code>gets()</code> <br>
-Output: <code>putchar()</code> <code>puts()</code>
-</li>
-</ul>
+
+<b>Formatted:</b> <br>
+- Input: <code>scanf()</code> <br>
+- Output: <code>printf()</code>
+
+<b>Unformatted:</b> <br>
+- Input: <code>getchar()</code> <code>gets()</code> <br>
+- Output: <code>putchar()</code> <code>puts()</code>
+
 </td>
 </tr>
 
@@ -246,7 +223,6 @@ Output: <code>putchar()</code> <code>puts()</code>
 <code>setjmp.h</code>
 </td>
 </tr>
-<tr>
 
 <tr>
 <td>Preprocessor directives</td>
@@ -261,6 +237,22 @@ Output: <code>putchar()</code> <code>puts()</code>
 <code>#pragma</code><br>
 </td>
 </tr>
+
 <tr>
+<td>Build and Automation Tools</td>
+<td>
+Makefile
+</td>
+</tr>
+<tr>
+
+<tr>
+<td>Libraries and frameworks</td>
+<td>
+<b>Standard C Library:</b> <code>stdio.h</code>, <code>stdlib.h</code>, and <code>string.h</code>...<br>
+<b>External Libraries:</b> <code>OpenGL</code>, <code>SQLite</code>...
+</td>
+</tr>
+
 
 </table>
