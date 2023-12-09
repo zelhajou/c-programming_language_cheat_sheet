@@ -130,12 +130,20 @@ Bitwise Operators: <code>&, |, ^ (XOR), ~ (complement), << (left shift), >> (rig
 <a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions/Math%20Functions">Math Fucntions:</a><br>
 
 ```c
-abs(x); sqrt(x); pow(x, y); sin(x), cos(x), tan(x); log(x); ceil(x); floor(x); round(x); fmod(x, y); fabs(x); asin(x); atan(x); cosh(x); sinh(x); tanh(x); exp(x); log10(x); cbrt(x); hypot(x, y); fmin(x, y); fmax(x, y); isnan(x); isinf(x); 
+abs(x);			sqrt(x);	pow(x, y);	sin(x),
+cos(x),			tan(x);		log(x);		ceil(x);
+floor(x);		round(x);	fmod(x, y); fabs(x);
+asin(x);		atan(x);	cosh(x);	sinh(x); 
+tanh(x);		exp(x);		log10(x);	cbrt(x);
+hypot(x, y);	fmin(x, y); fmax(x, y);	isnan(x);
+isinf(x);
 ```
 <a href="">Data Conversion Functions:</a><br>
 
 ```c
-atof(); atoi(); atol(); ecvt(); fcvt(); gcvt(); itoa(); ltoa(); strtod(); strtol(); strtoul(); ultoa(); 
+atof();		atoi();		atol();		ecvt();
+fcvt();		gcvt(); 	itoa();		ltoa();
+strtod();	strtol();	strtoul();	ultoa(); 
 ```
 
 </td>
