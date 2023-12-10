@@ -149,8 +149,8 @@ Input & Output
 
 <b>Formatted:</b> <br>
 Input: <code>scanf()</code> <br>
-Output: <code>printf()</code>
-<b>Unformatted:</b> <br>
+Output: <code>printf()</code><br>
+<b>Unformatted:</b><br>
 Input: <code>getchar()</code> <code>gets()</code> <br>
 Output: <code>putchar()</code> <code>puts()</code>
 </td>
