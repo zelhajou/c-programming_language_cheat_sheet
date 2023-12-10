@@ -12,7 +12,7 @@ if (ptr != NULL) {
 
 # **2. Bound Checking for Arrays:**
 
-- When using pointers to access elements in an array, ensure that you stay within the bounds of the array to prevent buffer overflows.
+When using pointers to access elements in an array, ensure that you stay within the bounds of the array to prevent buffer overflows.
 - Example in C:
 ```c
 int arr[5] = {1, 2, 3, 4, 5};
@@ -25,14 +25,14 @@ if (index >= 0 && index < 5) {
 
 # **3. Avoid Dangling Pointers:**
 
-- Dangling pointers are pointers that point to a memory location that has already been deallocated. Always update or invalidate pointers when memory is freed.
+Dangling pointers are pointers that point to a memory location that has already been deallocated. Always update or invalidate pointers when memory is freed.
 - Example in C:
-```c
-int *ptr = (int *)malloc(sizeof(int));
-// ... Use ptr ...
-free(ptr);   // Deallocate memory
-ptr = NULL;  // Set pointer to NULL to avoid dangling pointer
-```
+	```c
+	int *ptr = (int *)malloc(sizeof(int));
+	// ... Use ptr ...
+	free(ptr);   // Deallocate memory
+	ptr = NULL;  // Set pointer to NULL to avoid dangling pointer
+	```
 
 # **4. Proper Use of Pointers to Local Variables:**
 

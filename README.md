@@ -241,8 +241,9 @@ Input & Output
 	<code>Dereferencing</code>,
 	<code>Pointer Arithmetic</code>,
 	<code>Pointer Comparison</code>,
-	<code>Casting Pointers</code>,
-	<a href="">Common Pointer Usages</a><br>
+	<code>Casting Pointers</code>
+	<br>
+	<a href="">Common Pointer Usages:</a>
 </td>
 
 </tr>
