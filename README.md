@@ -236,13 +236,12 @@ Input & Output
 	<code>Array Pointers</code>,
 	<code>Double Pointer</code>
 	<br>
-	<a href="">Pointer Operations</a><br>
+	<a href="">Pointer Operations: </a>
 	<code>Declaration and Initialization</code>,
 	<code>Dereferencing</code>,
 	<code>Pointer Arithmetic</code>,
 	<code>Pointer Comparison</code>,
 	<code>Casting Pointers</code>,
-	<code>Memory Allocation and Deallocation</code>
 	<a href="">Common Pointer Usages</a><br>
 </td>
 
