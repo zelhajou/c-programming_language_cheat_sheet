@@ -148,15 +148,11 @@ Input & Output
 <td>
 
 <b>Formatted:</b> <br>
-
-- Input: <code>scanf()</code> <br>
-- Output: <code>printf()</code>
-
+Input: <code>scanf()</code> <br>
+Output: <code>printf()</code>
 <b>Unformatted:</b> <br>
-
-- Input: <code>getchar()</code> <code>gets()</code> <br>
-- Output: <code>putchar()</code> <code>puts()</code>
-
+Input: <code>getchar()</code> <code>gets()</code> <br>
+Output: <code>putchar()</code> <code>puts()</code>
 </td>
 </tr>
 
