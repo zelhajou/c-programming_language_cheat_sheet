@@ -212,16 +212,37 @@ Input & Output
 <tr>
 <td>Preprocessor directives</td>
 <td>
-<code>#include</code><br>
-<code>#define</code><br>
-<code>#undef</code><br>
-<code>#ifdef / #ifndef</code><br>
-<code>#if / #elif / #else / #endif</code><br>
-<code>#line</code><br>
-<code>#error</code><br>
-<code>#pragma</code><br>
+
+```c
+#include
+#define
+#undef
+#ifdef / #ifndef
+#if / #elif / #else / #endif
+#line
+#error
+#pragma
+```
 </td>
 </tr>
+
+<tr>
+<td>Pointers</td>
+<td>
+	<a href="">Types of Pointers: </a>
+	<code>NULL Pointers</code>,
+	<code>Void Pointers</code>,
+	<code>Function Pointers</code>,
+	<code>Array Pointers</code>,
+	<code>Double Pointer</code>
+	<br>
+	<a href="">Pointer Operations</a><br>
+	<a href="">Common Pointer Usages</a><br>
+</td>
+
+</tr>
+	
+
 
 <tr>
 <td>Build and Automation Tools</td>
