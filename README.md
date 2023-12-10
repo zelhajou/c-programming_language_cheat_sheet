@@ -206,36 +206,35 @@ Output: <code>putchar()</code> <code>puts()</code>
 <td>Pointers</td>
 <td>
 	<a href="">Types of Pointers: </a>
-	<code>NULL Pointers</code>,
-	<code>Void Pointers</code>,
-	<code>Function Pointers</code>,
-	<code>Array Pointers</code>,
-	<code>Double Pointer</code>
+	NULL Pointers,
+	Void Pointers,
+	Function Pointers,
+	Array Pointers,
+	Double Pointe>
 	<br>
 	<a href="">Pointer Operations: </a>
-	<code>Declaration and Initialization</code>,
-	<code>Dereferencing</code>,
-	<code>Pointer Arithmetic</code>,
-	<code>Pointer Comparison</code>,
-	<code>Casting Pointers</code>
+	Declaration and Initialization,
+	Dereferencing,
+	Pointer Arithmetic,
+	Pointer Comparison,
+	Casting Pointer>
 	<br>
 	<a href="">Common Pointer Usages: </a>
-    <code>Dynamic Memory Allocation</code>,
-    <code>Passing by Reference</code>,
-    <code>Array Manipulation</code>,
-    <code>Data Structures (Linked Lists)</code>,
-    <code>Callback Functions</code>,
-    <code>Pointers to Functions</code>,
-    <code>File Handling (File Pointers)</code>,
-    <code>Pointer to Structures</code>,
-    <code>Pointer Arithmetic Errors</code>,
-    <code>String Manipulation</code><br>
+    Dynamic Memory Allocation,
+    Passing by Reference,
+    Array Manipulation,
+    Data Structures (Linked Lists),
+    Callback Functions,
+    Pointers to Functions,
+    File Handling (File Pointers),
+    Pointer to Structures,
+    String Manipulation<br>
     <a href="">Pointer Pitfalls:</a>
-	<code>Null Pointer Dereferencing</code>,
-	<code>Dangling Pointers</code>,
-	<code>Memory Leaks</code>,
-	<code>Uninitialized Pointers</code>,
-	<code>Pointer Arithmetic Errors</code>
+	Null Pointer Dereferencing,
+	Dangling Pointers,
+	Memory Leaks,
+	Uninitialized Pointers,
+	Pointer Arithmetic Error>
 	<br>
 	
 </td>
