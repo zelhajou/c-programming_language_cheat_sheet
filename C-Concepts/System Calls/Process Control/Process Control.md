@@ -96,7 +96,3 @@ int main() {
     return 0;
 }
 ```
-
-In the example code provided, we used these process control system calls in a simple C program. `fork()` creates a child process, `exec()` replaces the program in the current process with a new one, `exit()` terminates a process, and `wait()` is used by the parent process to wait for the child process to finish.
-
-These system calls are fundamental for managing processes in an operating system and are essential for creating complex multi-process or multi-threaded applications.

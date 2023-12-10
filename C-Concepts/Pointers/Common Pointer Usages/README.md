@@ -1,5 +1,7 @@
+# Common Pointer Usages
 
-# **1. Dynamic Memory Allocation:**
+
+## **1. Dynamic Memory Allocation:**
 
 - Pointers are often used to manage dynamic memory allocation, allowing you to create and manipulate data structures of variable size at runtime.
 - Example in C:
@@ -29,7 +31,7 @@ int main() {
 }
 ```
 
-# **2. Passing by Reference:**
+## **2. Passing by Reference:**
 
 - Pointers can be used to pass variables by reference to functions, allowing functions to modify the original values.
 - Example in C:
@@ -50,7 +52,7 @@ int main() {
 
 ![[Screen Shot 2023-10-11 at 2.14.31 PM.png]]
 
-# **3. Array Manipulation:**
+## **3. Array Manipulation:**
 
 - Pointers can be used to iterate through arrays efficiently.
 - Examples in C:
@@ -70,7 +72,7 @@ int main() {
 }
 ```
 
-# **4. Data Structures (Linked Lists):**
+## **4. Data Structures (Linked Lists):**
 
 - Pointers are essential in implementing data structures like linked lists.
 ```c
@@ -95,7 +97,7 @@ int main() {
 }
 ```
 
-# **5. Callback Functions:**
+## **5. Callback Functions:**
 
 - Function pointers are used for implementing callback functions, where a function is passed as an argument to another function.
 ```c
@@ -123,7 +125,7 @@ int main() {
 }
 ```
 
-# **6. Pointers to Functions:**
+## **6. Pointers to Functions:**
 
 - Pointers can be used to create arrays of function pointers, which can be helpful for dynamic function dispatch.
 ```c
@@ -151,7 +153,7 @@ int main() {
 }
 ```
 
-# **7. File Handling (File Pointers):**
+## **7. File Handling (File Pointers):**
 
 - Pointers are used for file handling in C, where file pointers are used to read from and write to files.
 ```c
@@ -173,7 +175,7 @@ int main() {
 }
 ```
 
-# **8. Pointer to Structures:**
+## **8. Pointer to Structures:**
 
 - Pointers are often used with structures to manage and manipulate structured data efficiently.
 
@@ -195,7 +197,7 @@ int main() {
 }
 ```
 
-# **9. Pointer Arithmetic Errors:**
+## **9. Pointer Arithmetic Errors:**
 
 - While pointer arithmetic is powerful, it can lead to errors like accessing out-of-bounds memory.
 ```c
@@ -214,7 +216,7 @@ int main() {
 }
 ```
 
-# **10. String Manipulation:**
+## **10. String Manipulation:**
 
 - Pointers are widely used for string manipulation in C, as strings are represented as character arrays.
 ```c

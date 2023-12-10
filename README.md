@@ -1,8 +1,9 @@
 ```bash
 ┌─┐  ┌─┐┬─┐┌─┐┌─┐┬─┐┌─┐┌┬┐┌┬┐┬┌┐┌┌─┐  ┬  ┌─┐┌┐┌┌─┐┬ ┬┌─┐┌─┐┌─┐
-│    ├─┘├┬┘│ ││ ┬├┬┘├─┤│││││││││││ ┬  │  ├─┤││││ ┬│ │├─┤│ ┬├┤ 
-└─┘  ┴  ┴└─└─┘└─┘┴└─┴ ┴┴ ┴┴ ┴┴┘└┘└─┘  ┴─┘┴ ┴┘└┘└─┘└─┘┴ ┴└─┘└─┘          
+│    ├─┘├┬┘│ ││ ┬├┬┘├─┤│││││││││││ ┬  │  ├─┤││││ ┬│ │├─┤│ ┬├┤
+└─┘  ┴  ┴└─└─┘└─┘┴└─┴ ┴┴ ┴┴ ┴┴┘└┘└─┘  ┴─┘┴ ┴┘└┘└─┘└─┘┴ ┴└─┘└─┘
 ```
+
 <table>
 
 <tr>
@@ -41,10 +42,7 @@
 <td>Key Features</td>
 <td>Low-level manipulation, Efficient, Portability</td>
 </tr>
-<tr>
-<td>Memory Management</td>
-<td>Manual (malloc, free)</td>
-</tr>
+
 <tr>
 <td>Compilation</td>
 <td>Compiled language</td>
@@ -53,6 +51,7 @@
 <td>Flow of Program</td>
 <td> <code>Source Code</code> -> <code>Preprocessor (e.g., #include)</code> -> <code>Compiler (e.g., gcc)</code> -> <code>Linker (Combines Object Files)</code> -> <code>Executable Program</code> -> <code>Run the Program</code></td>
 </tr>
+
 <tr>
 <td>Hello World</td>
 <td>
@@ -67,50 +66,27 @@
 
 int main() // main() function must be there
 {
-	printf("Hello, World!\n"); // semicolon after each statement
-	return 0; // indicate that program ended successfuly
+printf("Hello, World!\n"); // semicolon after each statement
+return 0; // indicate that program ended successfuly
 } // program enclosed by curly braces
 
-```
-
+````
 </td>
 </tr>
 
 <tr>
 <td>Keywords</td>
 <td>
-<code>auto</code>
-<code>break</code>
-<code>case</code>
-<code>char</code>
-<code>const</code>
-<code>continue</code>
-<code>default</code>
-<code>do</code>
-<code>double</code>
-<code>else</code>
-<code>enum</code>
-<code>extern</code>
-<code>float</code>
-<code>for</code>
-<code>goto</code>
-<code>if</code>
-<code>int</code>
-<code>long</code>
-<code>register</code>
-<code>return</code>
-<code>short</code>
-<code>signed</code>
-<code>sizeof</code>
-<code>static</code>
-<code>struct</code>
-<code>switch</code>
-<code>typedef</code>
-<code>union</code>
-<code>unsigned</code>
-<code>void</code>
-<code>volatile</code>
-<code>while</code>
+
+```c
+auto,		break,	case,		char,	const,		continue
+default,	do,		double,		else,	enum,		extern
+float,		for,	goto,		if,		int,		long
+register,	return,	short,		signed,	sizeof,		static
+struct,		switch,	typedef,	union,	unsigned,	void,
+volatile,	while
+````
+
 </td>
 </tr>
 
@@ -136,17 +112,18 @@ Bitwise Operators: <code>&, |, ^ (XOR), ~ (complement), << (left shift), >> (rig
 abs(x);			sqrt(x);	pow(x, y);	sin(x),
 cos(x),			tan(x);		log(x);		ceil(x);
 floor(x);		round(x);	fmod(x, y);	fabs(x);
-asin(x);		atan(x);	cosh(x);	sinh(x); 
+asin(x);		atan(x);	cosh(x);	sinh(x);
 tanh(x);		exp(x);		log10(x);	cbrt(x);
 hypot(x, y);		fmin(x, y);	fmax(x, y);	isnan(x);
 isinf(x);
 ```
+
 <a href="">Data Conversion Functions:</a><br>
 
 ```c
 atof();		atoi();		atol();		ecvt();
 fcvt();		gcvt(); 	itoa();		ltoa();
-strtod();	strtol();	strtoul();	ultoa(); 
+strtod();	strtol();	strtoul();	ultoa();
 ```
 
 </td>
@@ -171,10 +148,12 @@ Input & Output
 <td>
 
 <b>Formatted:</b> <br>
+
 - Input: <code>scanf()</code> <br>
 - Output: <code>printf()</code>
 
 <b>Unformatted:</b> <br>
+
 - Input: <code>getchar()</code> <code>gets()</code> <br>
 - Output: <code>putchar()</code> <code>puts()</code>
 
@@ -223,6 +202,7 @@ Input & Output
 #error
 #pragma
 ```
+
 </td>
 </tr>
 
@@ -243,11 +223,32 @@ Input & Output
 	<code>Pointer Comparison</code>,
 	<code>Casting Pointers</code>
 	<br>
-	<a href="">Common Pointer Usages:</a>
-</td>
-
-</tr>
+	<a href="">Common Pointer Usages: </a>
+    <code>Dynamic Memory Allocation</code>,
+    <code>Passing by Reference</code>,
+    <code>Array Manipulation</code>,
+    <code>Data Structures (Linked Lists)</code>,
+    <code>Callback Functions</code>,
+    <code>Pointers to Functions</code>,
+    <code>File Handling (File Pointers)</code>,
+    <code>Pointer to Structures</code>,
+    <code>Pointer Arithmetic Errors</code>,
+    <code>String Manipulation</code><br>
+    <a href="">Pointer Pitfalls:</a>
+	<code>Null Pointer Dereferencing</code>,
+	<code>Dangling Pointers</code>,
+	<code>Memory Leaks</code>,
+	<code>Uninitialized Pointers</code>,
+	<code>Pointer Arithmetic Errors</code>
+	<br>
 	
+</td>
+</tr>
+
+<tr>
+<td>Memory Management</td>
+<td>Manual (malloc, free)</td>
+</tr>
 
 
 <tr>
@@ -265,6 +266,5 @@ Makefile
 <b>External Libraries:</b> <code>OpenGL</code>, <code>SQLite</code>...
 </td>
 </tr>
-
 
 </table>
