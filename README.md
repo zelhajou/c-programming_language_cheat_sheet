@@ -90,18 +90,61 @@ volatile;	while
 </td>
 </tr>
 
-
-
 <tr>
 <td>
 <a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Operators">Operators</a>
 </td>
 <td>
-Arithmetic operators: <code>+, -, *, /, % (modulo).</code><br>
-Comparison Operators: <code>==, !=, <, >, <=, >=</code><br>
-Logical operators: <code>&& (logical AND), || (logical OR), ! (logical NOT).</code><br>
-Assignment Operators: <code>= (assignment), +=, -=, *=, /=, %=</code><br>
-Bitwise Operators: <code>&, |, ^ (XOR), ~ (complement), << (left shift), >> (right shift).</code><br>
+<b>Unary:</b><br>
+<code>+</code>
+<code>-</code>
+<code>++</code>
+<code>--</code>
+<code>!</code>
+<code>&</code>
+<code>*</code>
+<code>~</code>
+<code>sizeof</code>
+
+<b>Binary:</b><br>
+Arithmetic operators: <code>+</code>
+<code>-</code>
+<code>*</code>
+<code>/</code>
+<code>%</code>
+<br>
+Comparison Operators:
+<code>==</code>
+<code>!=</code>
+<code><</code>
+<code>></code>
+<code><=</code>
+<code>>=</code>
+<br>
+Logical operators:
+<code>&&</code>
+<code>||</code>
+<code>!</code>
+<br>
+Assignment Operators:
+<code>=</code>
+<code>+=</code>
+<code>-=</code>
+<code>*=</code>
+<code>/=</code>
+<code>%=</code>
+<br>
+Bitwise Operators: 
+<code>&</code>
+<code>|</code>
+<code>^</code>(XOR)
+<code>~</code>(complement)
+<code><<</code>(left shift)
+<code>>></code>(right shift)
+<br>
+<b>Ternary:</b><br>
+<code>? :</code>
+
 </td>
 </tr>
 
@@ -198,6 +241,39 @@ Output: <code>printf()</code><br>
 <b>Unformatted:</b><br>
 Input: <code>getchar()</code> <code>gets()</code> <br>
 Output: <code>putchar()</code> <code>puts()</code>
+<br>
+<b>Escape Sequences:</b>
+<code>\n</code> 
+<code>\t</code> 
+<code>\r</code> 
+<code>\\</code> 
+<code>\'</code> 
+<code>\"</code> 
+<code>\?</code> 
+<code>\a</code> 
+<code>\b</code> 
+<code>\f</code> 
+<code>\v</code> 
+<code>\0</code>
+<br>
+<b>Format Specifiers:</b>
+<code>%d</code>
+<code>%ld</code>
+<code>%lld</code>
+<code>%u</code>
+<code>%lu</code>
+<code>%llu</code>
+<code>%f</code>
+<code>%lf</code>
+<code>%e, %E</code>
+<code>%c</code>
+<code>%s</code>
+<code>%p</code>
+<code>%x, %X</code>
+<code>%o</code>
+<code>%g, %G</code>
+<code>%%</code>
+
 </td>
 </tr>
 

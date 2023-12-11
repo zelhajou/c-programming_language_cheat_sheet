@@ -53,7 +53,7 @@ All variables use **data-type** during declaration to restrict the type of data 
 - Derived
 	- `Function` `Array` `Pointer` `Reference` `String`
 - User-Defined
-	- `Structure` `Union` `Class` `Enum` `Typedef`
+	- `Structure` `Union` `Enum` `Typedef`
 
 | Types          | Size in bytes | Keyword |
 |----------------|---------------|---------|
