@@ -49,7 +49,7 @@
 </tr>
 <tr>
 <td>Flow of Program</td>
-<td> <code>Source Code</code> -> <code>Preprocessor (e.g., #include)</code> -> <code>Compiler (e.g., gcc)</code> -> <code>Linker (Combines Object Files)</code> -> <code>Executable Program</code> -> <code>Run the Program</code></td>
+<td> <i>Source Code</i> -> <i>Preprocessor</i> (e.g., #include) -> <i>Compiler</i> (e.g., gcc) -> <i>Linker (Combines Object Files)</i> -> <i>Executable Program</i> -> <i>Run the Program</i></td>
 </tr>
 
 <tr>
@@ -90,6 +90,8 @@ volatile;	while
 </td>
 </tr>
 
+
+
 <tr>
 <td>
 <a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Operators">Operators</a>
@@ -104,32 +106,6 @@ Bitwise Operators: <code>&, |, ^ (XOR), ~ (complement), << (left shift), >> (rig
 </tr>
 
 <tr>
-<td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions">Fucntions</a></td>
-<td>
-<a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions/Math%20Functions">Math Fucntions:</a><br>
-
-```c
-abs(x);			sqrt(x);	pow(x, y);	sin(x),
-cos(x),			tan(x);		log(x);		ceil(x);
-floor(x);		round(x);	fmod(x, y);	fabs(x);
-asin(x);		atan(x);	cosh(x);	sinh(x);
-tanh(x);		exp(x);		log10(x);	cbrt(x);
-hypot(x, y);		fmin(x, y);	fmax(x, y);	isnan(x);
-isinf(x);
-```
-
-<a href="">Data Conversion Functions:</a><br>
-
-```c
-atof();		atoi();		atol();		ecvt();
-fcvt();		gcvt(); 	itoa();		ltoa();
-strtod();	strtol();	strtoul();	ultoa();
-```
-
-</td>
-</tr>
-
-<tr>
 <td>
 <a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Control%20Flow">Control Flow</a>
 </td>
@@ -137,28 +113,6 @@ strtod();	strtol();	strtoul();	ultoa();
 <b>Conditional statements:</b> <code>If-else</code> <code>Switch</code><br>
 <b>Loops:</b> <code>for</code> <code>while</code> <code>do-while</code> <code>goto</code>
 </td>
-</tr>
-
-<tr>
-<td>
-<a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Input%20and%20Output">
-Input & Output
-</a>
-</td>
-<td>
-
-<b>Formatted:</b> <br>
-Input: <code>scanf()</code> <br>
-Output: <code>printf()</code><br>
-<b>Unformatted:</b><br>
-Input: <code>getchar()</code> <code>gets()</code> <br>
-Output: <code>putchar()</code> <code>puts()</code>
-</td>
-</tr>
-
-<tr>
-<td>Error Handlling</td>
-<td></td>
 </tr>
 
 <tr>
@@ -203,40 +157,92 @@ Output: <code>putchar()</code> <code>puts()</code>
 </tr>
 
 <tr>
-<td>Pointers</td>
+<td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions">Fucntions</a></td>
+<td>
+<a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions/Math%20Functions">Math Fucntions:</a><br>
+
+```c
+abs(x);			sqrt(x);	pow(x, y);	sin(x),
+cos(x),			tan(x);		log(x);		ceil(x);
+floor(x);		round(x);	fmod(x, y);	fabs(x);
+asin(x);		atan(x);	cosh(x);	sinh(x);
+tanh(x);		exp(x);		log10(x);	cbrt(x);
+hypot(x, y);		fmin(x, y);	fmax(x, y);	isnan(x);
+isinf(x);
+```
+
+<a href="">Data Conversion Functions:</a><br>
+
+```c
+atof();		atoi();		atol();		ecvt();
+fcvt();		gcvt(); 	itoa();		ltoa();
+strtod();	strtol();	strtoul();	ultoa();
+```
+
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+<a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Input%20and%20Output">
+Input & Output
+</a>
+</td>
+<td>
+
+<b>Formatted:</b> <br>
+Input: <code>scanf()</code> <br>
+Output: <code>printf()</code><br>
+<b>Unformatted:</b><br>
+Input: <code>getchar()</code> <code>gets()</code> <br>
+Output: <code>putchar()</code> <code>puts()</code>
+</td>
+</tr>
+
+<tr>
+<td>Error Handlling</td>
+<td></td>
+</tr>
+
+
+
+<tr>
+<td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Pointers">Pointers<a></td>
 <td>
 	<a href="">Types of Pointers: </a>
-	NULL Pointers,
-	Void Pointers,
-	Function Pointers,
-	Array Pointers,
-	Double Pointe>
+	<i>NULL Pointers</i>,
+	<i>Void Pointers</i>,
+	<i>Function Pointers</i>,
+	<i>Array Pointers</i>,
+	<i>Double Pointe</i>
 	<br>
 	<a href="">Pointer Operations: </a>
-	Declaration and Initialization,
-	Dereferencing,
-	Pointer Arithmetic,
-	Pointer Comparison,
-	Casting Pointer>
+	<i>Declaration and Initialization</i>,
+	<i>Dereferencing</i>,
+	<i>Pointer Arithmetic</i>,
+	<i>Pointer Comparison</i>,
+	<i>Casting Pointer</i>
 	<br>
 	<a href="">Common Pointer Usages: </a>
-    Dynamic Memory Allocation,
-    Passing by Reference,
-    Array Manipulation,
-    Data Structures (Linked Lists),
-    Callback Functions,
-    Pointers to Functions,
-    File Handling (File Pointers),
-    Pointer to Structures,
-    String Manipulation<br>
-    <a href="">Pointer Pitfalls:</a>
-	Null Pointer Dereferencing,
-	Dangling Pointers,
-	Memory Leaks,
-	Uninitialized Pointers,
-	Pointer Arithmetic Error>
+	<i>Dynamic Memory Allocation</i>,
+	<i>Passing by Reference</i>,
+	<i>Array Manipulation</i>,
+	<i>Data Structures (Linked Lists)</i>,
+	<i>Callback Functions</i>,
+	<i>Pointers to Functions</i>,
+	<i>File Handling (File Pointers)</i>,
+	<i>Pointer to Structures</i>,
+	<i>String Manipulation</i>
 	<br>
-	
+	<a href="">Pointer Pitfalls:</a>
+	<i>Null Pointer Dereferencing</i>,
+	<i>Dangling Pointers</i>,
+	<i>Memory Leaks</i>,
+	<i>Uninitialized Pointers</i>,
+	<i>Pointer Arithmetic Error</i>
+	<br>
 </td>
 </tr>
 
