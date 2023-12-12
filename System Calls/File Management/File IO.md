@@ -112,6 +112,9 @@ int main() {
 - Buffered I/O functions (e.g., `fopen`, `fclose`, `fread`, `fwrite`) provide a higher-level interface for file operations.
 - These functions use an internal buffer to optimize I/O operations for performance.
 - They are typically easier to use than low-level I/O functions.
+
+
+
 ```c
 #include <stdio.h>
 
@@ -138,5 +141,45 @@ int main() {
     return 0;
 }
 ```
+
+<table>
+  <tr>
+    <th>Function</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>FILE *fopen(const char *filename, const char *mode);</td>
+    <td>Opens a file for reading or writing</td>
+  </tr>
+  <tr>
+    <td>int fclose(FILE *stream);</td>
+    <td>Closes the specified file stream</td>
+  </tr>
+  <tr>
+    <td>int fflush(FILE *stream);</td>
+    <td>Flushes the output buffer of a stream</td>
+  </tr>
+  <tr>
+    <td>int setvbuf(FILE *stream, char *buffer, int mode, size_t size);</td>
+    <td>Sets the buffering mode and size for the specified stream</td>
+  </tr>
+  <tr>
+    <td>int fprintf(FILE *stream, const char *format, ...);</td>
+    <td>Writes formatted data to the specified stream</td>
+  </tr>
+  <tr>
+    <td>int fscanf(FILE *stream, const char *format, ...);</td>
+    <td>Reads formatted data from the specified stream</td>
+  </tr>
+  <tr>
+    <td>size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream);</td>
+    <td>Reads data from a stream into the specified buffer</td>
+  </tr>
+  <tr>
+    <td>size_t fwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream);</td>
+    <td>Writes data from the specified buffer to a stream</td>
+  </tr>
+</table>
+
 
 File I/O is essential for tasks such as reading configuration files, parsing data from files, writing log files, and interacting with external data sources. Understanding how to perform these operations efficiently and handle errors is crucial for system programming in C. Additionally, proper file handling is critical for ensuring the integrity and security of data in a system.

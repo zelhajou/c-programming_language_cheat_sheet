@@ -234,7 +234,7 @@ Input & Output
 </a>
 </td>
 <td>
-<h3>Standard I/O (stdio.h)</h3>
+<h4>Standard I/O (stdio.h)</h4>
 <b>Formatted:</b> <br>
 Input: <code>scanf()</code>, <code>fscanf()</code><br>
 Output: <code>printf(), <code>fprintf()</code></code><br>
@@ -274,11 +274,34 @@ Output: <code>putchar()</code> <code>puts()</code>
 <code>%g, %G</code>
 <code>%%</code>
 
-<h3>File Descriptors</h3>
+<h4>File Descriptors</h4>
 <ul>
 <li>stdin (0)</li>
 <li>stdout (1)</li>
 <li>stderr (2)</li>
+
+<h4>Low-level I/O</h4>
+
+```c
+open(); // Opens a file and returns a file descriptor.
+read(); // Reads data from an open file into a buffer.
+writ(); //  Writes data from a buffer to an open file.
+clos(); //  Closes an open file.
+lseek(); //  Repositions the file pointer within
+```
+
+<h4>Buffered I/O</h4>
+
+```c
+fopen(); //Opens a file for reading or writing
+fclose(); // Closes the specified file stream
+fflush(); // Flushes the output buffer of a stream
+setvbuf(); // Sets the buffering mode and size for the specified stream
+fprintf(); // Writes formatted data to the specified stream
+fscanf();	// Reads formatted data from the specified stream
+fread(); // Reads data from a stream into the specified buffer
+fwrite(); // Writes data from the specified buffer to a stream
+```
 </ul>
 
 </td>
@@ -288,8 +311,6 @@ Output: <code>putchar()</code> <code>puts()</code>
 <td>Error Handlling</td>
 <td></td>
 </tr>
-
-
 
 <tr>
 <td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Pointers">Pointers<a></td>
