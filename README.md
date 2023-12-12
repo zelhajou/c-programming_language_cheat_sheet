@@ -153,7 +153,10 @@ Bitwise Operators:
 </li>
 </ul>
 <b>Ternary:</b><br>
-<code>? :</code>
+
+condition <code>? :</code> value_if_true <code>:</code> value_if_false
+
+
 
 </td>
 </tr>
