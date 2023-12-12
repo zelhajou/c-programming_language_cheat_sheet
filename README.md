@@ -337,9 +337,9 @@ Output: <code>putchar()</code> <code>puts()</code>
 <br>
 <b>Memory Hierarchy:</b><br>
 <i>Text Segment</i>, <i>Data Segment</i>, <i>Heap</i>, <i>Stack</i>, <i>Memory Mapping (MMap)</i>, <i>Environment Variables and Command Line Arguments</i>
-<br>
+
 <b>Dynamic Memory Allocation:<b><br>
-/td>
+</td>
 </tr>
 
 
