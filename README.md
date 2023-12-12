@@ -234,10 +234,10 @@ Input & Output
 </a>
 </td>
 <td>
-
+<h3>Standard I/O (stdio.h)</h3>
 <b>Formatted:</b> <br>
-Input: <code>scanf()</code> <br>
-Output: <code>printf()</code><br>
+Input: <code>scanf()</code>, <code>fscanf()</code><br>
+Output: <code>printf(), <code>fprintf()</code></code><br>
 <b>Unformatted:</b><br>
 Input: <code>getchar()</code> <code>gets()</code> <br>
 Output: <code>putchar()</code> <code>puts()</code>
@@ -273,6 +273,13 @@ Output: <code>putchar()</code> <code>puts()</code>
 <code>%o</code>
 <code>%g, %G</code>
 <code>%%</code>
+
+<h3>File Descriptors</h3>
+<ul>
+<li>stdin (0)</li>
+<li>stdout (1)</li>
+<li>stderr (2)</li>
+</ul>
 
 </td>
 </tr>

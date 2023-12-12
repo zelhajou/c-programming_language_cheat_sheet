@@ -8,7 +8,7 @@ File management system calls are used to create, open, read, write, and manipula
     - `flags`: Flags specifying the mode of the file (e.g., read-only, write-only, create if not exists).
     - `mode`: Permissions for the newly created file (only used when creating a new file).
 - **Return Value:** If successful, it returns a non-negative integer (file descriptor). On error, it returns -1.
-- **Example (in C):**
+- **Example:**
 ```c
 #include <stdio.h>
 #include <fcntl.h>
@@ -98,7 +98,7 @@ int main() {
     - `buf`: A buffer containing the data to be written.
     - `count`: The number of bytes to write.
 - **Return Value:** The number of bytes written, or -1 on error.
-- **Example (in C):**
+- **Example:**
   
 ```c
 #include <stdio.h>
@@ -133,7 +133,7 @@ int main() {
     - `offset`: The offset to seek to.
     - `whence`: The reference point for the offset (e.g., `SEEK_SET` for the start of the file).
 - **Return Value:** The new file position, or -1 on error.
-- **Example (in C):**
+- **Example:**
 ```c
 #include <stdio.h>
 #include <fcntl.h>
@@ -166,7 +166,7 @@ int main() {
 - **Parameters:**
     - `pathname`: The path to the file to be unlinked (deleted).
 - **Return Value:** If successful, it returns 0. On error, it returns -1.
-- **Example (in C):**
+- **Example:**
 ```c
 #include <stdio.h>
 #include <unistd.h>
