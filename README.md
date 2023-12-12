@@ -96,23 +96,28 @@ volatile;	while
 </td>
 <td>
 <b>Unary:</b><br>
-<code>+</code>
-<code>-</code>
-<code>++</code>
-<code>--</code>
-<code>!</code>
-<code>&</code>
-<code>*</code>
-<code>~</code>
+<code>+</code>,
+<code>-</code>,
+<code>++</code>,
+<code>--</code>,
+<code>!</code>,
+<code>&</code>,
+<code>*</code>,
+<code>~</code>,
 <code>sizeof</code>
 
 <b>Binary:</b><br>
-Arithmetic operators: <code>+</code>
-<code>-</code>
-<code>*</code>
-<code>/</code>
+<ul>
+<li>
+<Arithmetic operators:
+<code>+</code>,
+<code>-</code>,
+<code>*</code>,
+<code>/</code>,
 <code>%</code>
-<br>
+</li>
+</ul>
+<li>
 Comparison Operators:
 <code>==</code>
 <code>!=</code>
@@ -120,12 +125,14 @@ Comparison Operators:
 <code>></code>
 <code><=</code>
 <code>>=</code>
-<br>
+</il>
+<li>
 Logical operators:
 <code>&&</code>
 <code>||</code>
 <code>!</code>
-<br>
+</li>
+<li>
 Assignment Operators:
 <code>=</code>
 <code>+=</code>
@@ -133,7 +140,8 @@ Assignment Operators:
 <code>*=</code>
 <code>/=</code>
 <code>%=</code>
-<br>
+</li>
+<li>
 Bitwise Operators: 
 <code>&</code>
 <code>|</code>
@@ -141,7 +149,8 @@ Bitwise Operators:
 <code>~</code>(complement)
 <code><<</code>(left shift)
 <code>>></code>(right shift)
-<br>
+</li>
+</ul>
 <b>Ternary:</b><br>
 <code>? :</code>
 
@@ -213,7 +222,6 @@ tanh(x);		exp(x);		log10(x);	cbrt(x);
 hypot(x, y);		fmin(x, y);	fmax(x, y);	isnan(x);
 isinf(x);
 ```
-
 <a href="">Data Conversion Functions:</a><br>
 
 ```c
@@ -221,11 +229,8 @@ atof();		atoi();		atol();		ecvt();
 fcvt();		gcvt(); 	itoa();		ltoa();
 strtod();	strtol();	strtoul();	ultoa();
 ```
-
 </td>
 </tr>
-
-
 
 <tr>
 <td>
@@ -308,10 +313,7 @@ fwrite(); // Writes data from the specified buffer to a stream
 </td>
 </tr>
 
-<tr>
-<td>Error Handlling</td>
-<td></td>
-</tr>
+
 
 <tr>
 <td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Pointers">Pointers<a></td>
@@ -449,6 +451,11 @@ getppid(); // Get the parent process ID.
 </tr>
 <tr>
 
+
+<tr>
+<td>Error Handlling</td>
+<td></td>
+</tr>
 
 <tr>
 <td>Build and Automation Tools</td>
