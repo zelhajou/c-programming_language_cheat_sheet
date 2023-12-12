@@ -337,16 +337,21 @@ Output: <code>putchar()</code> <code>puts()</code>
 <b>Memory Hierarchy:</b><br>
 <i>Text Segment</i>, <i>Data Segment</i>, <i>Heap</i>, <i>Stack</i>, <i>Memory Mapping (MMap)</i>, <i>Environment Variables and Command Line Arguments</i>
 <br>
-<b>Dynamic Memory Allocation:<b><br>
+<b><a>Dynamic Memory Allocation</a>:<b><br>
 
 ```c
-malloc()	// Allocate memory dynamically
-calloc()	// Allocate contiguous block of memory and initializes it to zero
-realloc()	// Reallocate memory dynamically
-free()		// Deallocate memory
+malloc();	// Allocate memory dynamically
+calloc();	// Allocate contiguous block of memory and initializes it to zero
+realloc();	// Reallocate memory dynamically
 
 // Memory Leaks Tool: Valgrind
 ```
+<b><a>Memory Deallocation</a>:</b>
+
+```c
+free();
+```
+
 </td>
 </tr>
 

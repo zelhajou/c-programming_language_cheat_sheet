@@ -32,6 +32,7 @@ Memory management is a fundamental aspect of computer systems and programming la
 - Modern computer systems use Memory Management Units to handle memory allocation and access.
 - MMUs map virtual memory addresses used by programs to physical memory addresses in RAM.
 - They allow multiple programs to share memory and provide memory protection to prevent unauthorized access.
+
 # 8. Garbage Collection:
 
 - Some programming languages, like Java and C#, use automatic memory management through garbage collection.
@@ -41,8 +42,6 @@ Memory management is a fundamental aspect of computer systems and programming la
 
 - Memory management aims to optimize memory usage by minimizing overhead and maximizing the efficient use of memory resources.
 - Techniques like memory pooling, caching, and optimizing data structures play a role in memory optimization.
-
-In summary, memory management is a critical aspect of software development and computer systems. It involves efficiently allocating and deallocating memory resources to ensure programs run smoothly without wasting memory or causing issues like memory leaks or fragmentation. Proper memory management is essential for writing efficient, reliable, and secure software.
 
 
 
