@@ -109,7 +109,7 @@ volatile;	while
 <b>Binary:</b><br>
 <ul>
 <li>
-<Arithmetic operators:
+Arithmetic operators:
 <code>+</code>,
 <code>-</code>,
 <code>*</code>,
@@ -119,11 +119,11 @@ volatile;	while
 </ul>
 <li>
 Comparison Operators:
-<code>==</code>
-<code>!=</code>
-<code><</code>
-<code>></code>
-<code><=</code>
+<code>==</code>,
+<code>!=</code>,
+<code><</code>,
+<code>></code>,
+<code><=</code>,
 <code>>=</code>
 </il>
 <li>
@@ -134,20 +134,20 @@ Logical operators:
 </li>
 <li>
 Assignment Operators:
-<code>=</code>
-<code>+=</code>
-<code>-=</code>
-<code>*=</code>
-<code>/=</code>
+<code>=</code>,
+<code>+=</code>,
+<code>-=</code>,
+<code>*=</code>,
+<code>/=</code>,
 <code>%=</code>
 </li>
 <li>
 Bitwise Operators: 
-<code>&</code>
-<code>|</code>
-<code>^</code>(XOR)
-<code>~</code>(complement)
-<code><<</code>(left shift)
+<code>&</code>,
+<code>|</code>,
+<code>^</code>(XOR),
+<code>~</code>(complement),
+<code><<</code>(left shift),
 <code>>></code>(right shift)
 </li>
 </ul>
