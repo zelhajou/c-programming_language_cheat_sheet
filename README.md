@@ -417,6 +417,13 @@ realloc();	// Reallocate memory dynamically
 ```c
 free(); // Deallocate memory
 ```
+<b><a>Memory Management</a>:<b><br>
+
+```c
+brk(); //Set the end of the data segment to the specified value.
+mmap(); //Map files or devices into memory.
+munmap(); //Unmap files or devices from memory.
+```
 
 </td>
 </tr>
@@ -452,10 +459,43 @@ wait(); // Wait for a child process to terminate.
 exit(); // Terminate the current process.
 getpid(); // Get the process ID of the current process.
 getppid(); // Get the parent process ID.
+getuid(); // Get the user ID of the current process.
+getgid(); // Get the group ID of the current process.
+uname(); // Get system information including the operating system name, version, and more
 ```
 </td>
 </tr>
 <tr>
+
+
+<tr>
+<td>Signal Handling</td>
+<td>
+
+<b>Signal Macros:</b>
+
+```c
+SIGINT // Interrupt from the keyboard (Ctrl+C).
+SIGTERM // Termination signal.
+SIGSEGV // Segmentation fault (invalid memory reference).
+SIGKILL // Kill signal (cannot be caught or ignored).
+SIGUSR1 // User-defined signals.
+SIGUSR2 // User-defined signals.
+```
+
+<b>Signal Functions:</b>
+
+
+```c
+signal(): Set a function to handle a signal.
+sigaction(): Examine and change signal action.
+kill(): Send a signal to a process or a group of processes.
+alarm(): Set an alarm clock for the process.
+```
+
+</td>
+</tr>
+
 
 
 <tr>
