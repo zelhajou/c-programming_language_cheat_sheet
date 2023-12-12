@@ -334,10 +334,9 @@ Output: <code>putchar()</code> <code>puts()</code>
 <b>Dynamic Allocation:</b> Memory is allocated at runtime
 </li>
 </ul>
-<br>
 <b>Memory Hierarchy:</b><br>
 <i>Text Segment</i>, <i>Data Segment</i>, <i>Heap</i>, <i>Stack</i>, <i>Memory Mapping (MMap)</i>, <i>Environment Variables and Command Line Arguments</i>
-
+<br>
 <b>Dynamic Memory Allocation:<b><br>
 </td>
 </tr>
