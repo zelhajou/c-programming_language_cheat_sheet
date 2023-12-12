@@ -354,11 +354,13 @@ fwrite(); // Writes data from the specified buffer to a stream
 </ul>
 <br>
 <a href="">Pointer Pitfalls:</a>
+<ul>
 <li>Null Pointer Dereferencing</li>
 <li>Dangling Pointers</li>
 <li>Memory Leaks</li>
 <li>Uninitialized Pointers</li>
 <li>Pointer Arithmetic Error</li>
+</ul>
 <br>
 </td>
 </tr>
