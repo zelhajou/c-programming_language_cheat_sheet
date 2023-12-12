@@ -106,7 +106,7 @@ volatile;	while
 <code>~</code>,
 <code>sizeof</code>
 
-<b>Binary:</b><br>
+<b>Binary:</b>
 <ul>
 <li>
 Arithmetic operators:
