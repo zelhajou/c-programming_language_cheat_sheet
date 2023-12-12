@@ -279,6 +279,7 @@ Output: <code>putchar()</code> <code>puts()</code>
 <li>stdin (0)</li>
 <li>stdout (1)</li>
 <li>stderr (2)</li>
+</ul>
 
 <h4>Low-level I/O</h4>
 
@@ -302,7 +303,6 @@ fscanf();	// Reads formatted data from the specified stream
 fread(); // Reads data from a stream into the specified buffer
 fwrite(); // Writes data from the specified buffer to a stream
 ```
-</ul>
 
 </td>
 </tr>
