@@ -154,7 +154,7 @@ Bitwise Operators:
 </ul>
 <b>Ternary:</b><br>
 
-condition <code>? :</code> value_if_true <code>:</code> value_if_false
+condition <code>?</code> value_if_true <code>:</code> value_if_false
 
 
 
