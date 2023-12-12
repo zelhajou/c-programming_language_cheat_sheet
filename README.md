@@ -338,6 +338,13 @@ Output: <code>putchar()</code> <code>puts()</code>
 <i>Text Segment</i>, <i>Data Segment</i>, <i>Heap</i>, <i>Stack</i>, <i>Memory Mapping (MMap)</i>, <i>Environment Variables and Command Line Arguments</i>
 <br>
 <b>Dynamic Memory Allocation:<b><br>
+
+```c
+malloc()	//Allocate memory dynamically
+calloc()	//Allocate contiguous block of memory and initializes it to zero
+realloc()	//Reallocate memory dynamically
+free()		//Deallocate memory
+```
 </td>
 </tr>
 
