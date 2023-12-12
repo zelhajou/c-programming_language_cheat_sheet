@@ -108,6 +108,7 @@ volatile;	while
 
 <b>Binary:</b>
 <ul>
+
 <li>
 Arithmetic operators:
 <code>+</code>,
@@ -116,7 +117,7 @@ Arithmetic operators:
 <code>/</code>,
 <code>%</code>
 </li>
-</ul>
+
 <li>
 Comparison Operators:
 <code>==</code>,
