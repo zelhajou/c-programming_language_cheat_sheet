@@ -125,7 +125,7 @@ int main() {
 }
 ```
 
-# 5. **seek():**
+# 5. **lseek():**
 
 - **Description:** The `lseek()` system call is used to change the current position within a file. It allows you to move the file pointer to a specific location.
 - **Parameters:**

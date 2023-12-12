@@ -286,9 +286,10 @@ Output: <code>putchar()</code> <code>puts()</code>
 ```c
 open(); // Opens a file and returns a file descriptor.
 read(); // Reads data from an open file into a buffer.
-writ(); //  Writes data from a buffer to an open file.
-clos(); //  Closes an open file.
-lseek(); //  Repositions the file pointer within
+writ(); // Writes data from a buffer to an open file.
+clos(); // Closes an open file.
+lseek(); // Moves the file pointer associated with an open file.
+unlink(); // Removes a file from the file system.
 ```
 
 <h4>Buffered I/O</h4>
@@ -315,40 +316,69 @@ fwrite(); // Writes data from the specified buffer to a stream
 <tr>
 <td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Pointers">Pointers<a></td>
 <td>
-	<a href="">Types of Pointers: </a>
-	<i>NULL Pointers</i>,
-	<i>Void Pointers</i>,
-	<i>Function Pointers</i>,
-	<i>Array Pointers</i>,
-	<i>Double Pointe</i>
-	<br>
-	<a href="">Pointer Operations: </a>
-	<i>Declaration and Initialization</i>,
-	<i>Dereferencing</i>,
-	<i>Pointer Arithmetic</i>,
-	<i>Pointer Comparison</i>,
-	<i>Casting Pointer</i>
-	<br>
-	<a href="">Common Pointer Usages: </a>
-	<i>Dynamic Memory Allocation</i>,
-	<i>Passing by Reference</i>,
-	<i>Array Manipulation</i>,
-	<i>Data Structures (Linked Lists)</i>,
-	<i>Callback Functions</i>,
-	<i>Pointers to Functions</i>,
-	<i>File Handling (File Pointers)</i>,
-	<i>Pointer to Structures</i>,
-	<i>String Manipulation</i>
-	<br>
-	<a href="">Pointer Pitfalls:</a>
-	<i>Null Pointer Dereferencing</i>,
-	<i>Dangling Pointers</i>,
-	<i>Memory Leaks</i>,
-	<i>Uninitialized Pointers</i>,
-	<i>Pointer Arithmetic Error</i>
-	<br>
+<a href="">Types of Pointers: </a>
+<ul>
+<li>NULL Pointers</li>
+<li>Void Pointers</li>
+<li>Function Pointers</li>
+<li>Array Pointers</li>
+<li>Double Pointe</li>
+</ul>
+<br>
+<a href="">Pointer Operations: </a>
+<ul>
+<li>Declaration and Initialization</li>
+<li>Dereferencing</li>
+<li>Pointer Arithmetic</li>
+<li>Pointer Comparison</li>
+<li>Casting Pointer<l/i>
+</ul>
+<br>
+<a href="">Common Pointer Usages: </a>
+<ul>
+<li>Dynamic Memory Allocation</li>
+<li>Passing by Reference</li>
+<li>Array Manipulation</li>
+<li>Data Structures (Linked Lists)</li>
+<li>Callback Functions</li>
+<li>Pointers to Functions</li>
+<li>File Handling (File Pointers)</li>
+<li>Pointer to Structures</li>
+<li>String Manipulation</li>
+</ul>
+<br>
+<a href="">Pointer Pitfalls:</a>
+<li>Null Pointer Dereferencing</li>
+<li>Dangling Pointers</li>
+<li>Memory Leaks</li>
+<li>Uninitialized Pointers</li>
+<li>Pointer Arithmetic Error</li>
+<br>
 </td>
 </tr>
+
+
+
+<tr>
+<td>File Management</td>
+<td>
+
+```c
+open(); // Opens a file or creates a new file
+close(); // Closes a file descriptor
+read(); // Reads data from a file
+write(); // Writes data to a file
+lseek(); // Moves the file pointer within a file
+unlink(); // Removes a file from the file system
+rename(); // Renames a file
+chmod(); // Changes the permissions of a file
+stat(); // Returns information about a file
+mkdir(); // Creates a new directory
+rmdir(); // Removes an empty directory
+```
+</td>
+</tr>
+
 
 <tr>
 <td>Memory Management</td>
@@ -377,11 +407,48 @@ realloc();	// Reallocate memory dynamically
 <b><a>Memory Deallocation</a>:</b>
 
 ```c
-free();
+free(); // Deallocate memory
 ```
 
 </td>
 </tr>
+
+<tr>
+<td>Process management</td>
+<td>
+<b>Process States</b>
+<ul>
+<li>Running</li>
+<li>Ready</li>
+<li>Blocked (or Waiting)</li>
+<li>Terminated</li>
+</ul>
+
+<b>Process Control Block (PCB)</b>
+<ul>
+<li>Process ID (PID)</li>
+<li>Program counter and CPU registers</li>
+<li>Memory allocation details</li>
+<li>Process state</li>
+<li>Priority and scheduling information</li>
+<li>Open file descriptors</li>
+<li>Parent and child process information</li>
+</ul>
+
+<b>Process control<b>
+
+```c
+fork(); // Create a new process by duplicating the existing process.
+exec(); // Replace the current process with a new one.
+wait(); // Wait for a child process to terminate.
+exit(); // Terminate the current process.
+getpid(); // Get the process ID of the current process.
+getppid(); // Get the parent process ID.
+```
+</td>
+</tr>
+<tr>
+
 
 <tr>
 <td>Build and Automation Tools</td>
