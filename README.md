@@ -340,14 +340,15 @@ Output: <code>putchar()</code> <code>puts()</code>
 <b>Dynamic Memory Allocation:<b><br>
 
 ```c
-malloc()	//Allocate memory dynamically
-calloc()	//Allocate contiguous block of memory and initializes it to zero
-realloc()	//Reallocate memory dynamically
-free()		//Deallocate memory
+malloc()	// Allocate memory dynamically
+calloc()	// Allocate contiguous block of memory and initializes it to zero
+realloc()	// Reallocate memory dynamically
+free()		// Deallocate memory
+
+// Memory Leaks Tool: Valgrind
 ```
 </td>
 </tr>
-
 
 <tr>
 <td>Build and Automation Tools</td>
