@@ -6,5 +6,5 @@
 
 
 When we execute a C Program, it requires to reserve some memory in the machine to store its variables, functions, instructions and the program file itself. However, we also have a memory segment that we can use dynamically as much memory as the system have and that too during the run-time of a program. So, now let us see the components/segments of memory that are used during the execution of a C program.
-# [[Memory layout in c]]
 
+<b>Memory layout in c</b>

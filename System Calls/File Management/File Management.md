@@ -181,5 +181,4 @@ int main() {
 }
 ```
 
-
 These file management system calls are essential for creating, accessing, and manipulating files in an operating system. They provide the foundation for file I/O operations in various programming languages and are crucial for working with data stored on disk.

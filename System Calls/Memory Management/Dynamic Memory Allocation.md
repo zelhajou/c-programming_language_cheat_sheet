@@ -108,7 +108,3 @@ When using `realloc`, it's essential to assign the result back to the original p
 ## **Memory Leaks:**
 
 **Leak Detection:** Memory leaks occur when allocated memory is not properly deallocated. Tools like `valgrind` can help detect memory leaks in C programs.
-
-## Smart Pointers (C++):**
-
-- In C++, smart pointers like `std::shared_ptr` and `std::unique_ptr` help manage memory automatically, reducing the risk of memory leaks and dangling pointers
