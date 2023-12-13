@@ -70,7 +70,8 @@ printf("Hello, World!\n"); // semicolon after each statement
 return 0; // indicate that program ended successfuly
 } // program enclosed by curly braces
 
-````
+```
+
 </td>
 </tr>
 
@@ -85,12 +86,13 @@ float;		for;		goto;		if;	int;		long
 register;	return;		short;		signed;	sizeof;		static
 struct;		switch;		typedef;	union;	unsigned;	void;
 volatile;	while
-````
+```
 
 </td>
 </tr>
 
 <tr>
+
 <td>Data Type</td>
 <td>
 
