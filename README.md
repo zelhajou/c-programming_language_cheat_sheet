@@ -603,19 +603,29 @@ strerror();
 </tr>
 
 <tr>
-<td>Build and Automation Tools</td>
+<td>Development Environments</td>
 <td>
-Makefile
-</td>
-</tr>
-<tr>
 
-<tr>
-<td>Libraries and frameworks</td>
-<td>
-<b>Standard C Library:</b> <code>stdio.h</code>, <code>stdlib.h</code>, and <code>string.h</code>...<br>
-<b>External Libraries:</b> <code>OpenGL</code>, <code>SQLite</code>...
+<b>IDEs</b>: Visual Studio, Code::Blocks.<br>
+<b>Text Editors</b>: Vim, Emacs.<br>
+<b>Compilers</b>: GCC (GNU Compiler Collection), Clang.<br>
+<b>Debuggers</b>:GDB (GNU Debugger).<br>
+<b>Build Systems</b>: Make and CMake.<br>
+<b>Version Control</b>: git
+<b>Libraries</b>: 
+<ul>
+<li>
+Standard C Library:</b> <code>stdio.h</code>, <code>stdlib.h</code>...
+</li>
+<li>
+rnal Libraries:</b> <code>OpenGL</code>, <code>SQLite</code>...</li>
+</ul>
 </td>
+
+<b>Documentation</b>: Doxygen
+
 </tr>
+
+
 
 </table>
