@@ -166,8 +166,32 @@ volatile;	while
 
 <tr>
 
-<td>Data Type</td>
+<td>Variables & Data Type</td>
 <td>
+
+<b>Rules for writing variable names:</b><br>
+<ul>
+<li>Keywords should not be used.</li>
+<li>Special characters should not be used as variables</li>
+<li>Representing the variable names in lowercase is a virtue programming practice.</li>
+<li>There is no limit on the number of characters in a variable name</li>
+</ul>
+
+```c
+// Valid variables Invalid variables
+char ab = 'A';
+int total_mark;
+int gross_weight_2020;
+int area_of_sphere;
+
+total_mark = 50;
+// Invalid variables
+char 8ab;
+int total mark;
+int gross-weight-2020;
+int area_ _of_ _sphere;
+```
+
 
 <b>Primary</b>
 
@@ -301,7 +325,15 @@ Bitwise Operators:
 
 condition <code>?</code> value_if_true <code>:</code> value_if_false
 
+<b>Other Operators:</b><br>
 
+<ul>
+<li><a href="https://www.geeksforgeeks.org/sizeof-operator-c/">sizeof</a>: <code>sizeof()</code></li>
+<li><a href="https://www.geeksforgeeks.org/comma-in-c/">Comma</a>: <code>( , )</code></li>
+<li><a href="https://www.geeksforgeeks.org/dot-operator-in-c-c/">dot (.)</a> and <a href="https://www.geeksforgeeks.org/arrow-operator-in-c-c-with-examples/">arrow (->)</a>: <code>.</code>, <code>-></code></li>
+<li><a href="https://www.geeksforgeeks.org/c-typecasting/">Cast Operator</a></li>
+&,* Operator: Pointer operator & returns the address of a variable</li>
+</ul>
 
 </td>
 </tr>
