@@ -148,6 +148,9 @@ return 0; // indicate that program ended successfuly
 </td>
 </tr>
 
+<tr>
+<td>Keywords</td>
+<td>
 
 ```c
 auto;		break;		case;		char;	const;		continue
