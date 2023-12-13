@@ -609,9 +609,9 @@ strerror();
 <b>IDEs</b>: Visual Studio, Code::Blocks.<br>
 <b>Text Editors</b>: Vim, Emacs.<br>
 <b>Compilers</b>: GCC (GNU Compiler Collection), Clang.<br>
-<b>Debuggers</b>:GDB (GNU Debugger).<br>
+<b>Debuggers</b>: GDB (GNU Debugger).<br>
 <b>Build Systems</b>: Make and CMake.<br>
-<b>Version Control</b>: git
+<b>Version Control</b>: git<br>
 <b>Libraries</b>: 
 <ul>
 <li>
