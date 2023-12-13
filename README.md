@@ -149,7 +149,7 @@ return 0; // indicate that program ended successfuly
 </tr>
 
 <tr>
-<td>Keywords</td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Basic/Keywords">Keywords</a></td>
 <td>
 
 ```c
@@ -199,8 +199,8 @@ int area_ _of_ _sphere;
 int, char, float, double, void;
 
 // Data type modifiers: Signed - unsigned - short - long
-
-signed int, unsigned int, short, long, long long, _Bool;
+signed int, unsigned int, short, long, long long;
+bool;
 ```
 <b>Derived</b><br>
 
@@ -211,6 +211,37 @@ Function, Array, Pointer, String
 ```c
 struct, union, enum, typedef;
 ```
+
+<b>Type Conversion:</b><br>
+Implicit Type Conversion:
+
+```c
+bool -> char -> short int -> int -> 
+unsigned int -> long -> unsigned -> 
+long long -> float -> double -> long double
+```
+
+<b>Escape Sequences:</b><br>
+<code>\n</code> 
+<code>\t</code> 
+<code>\r</code> 
+<code>\\</code> 
+<code>\'</code> 
+<code>\"</code> 
+<code>\?</code> 
+<code>\a</code> 
+<code>\b</code> 
+<code>\f</code> 
+<code>\v</code> 
+<code>\0</code>
+<br>
+
+Explicit Type Conversion:
+```c
+(type) expression
+```
+
+
 
 </td>
 </tr>
@@ -478,20 +509,7 @@ Input & Output
 <li>Output: <code>putchar()</code> <code>puts()</code></code></li>
 </ul>
 
-<b>Escape Sequences:</b>
-<code>\n</code> 
-<code>\t</code> 
-<code>\r</code> 
-<code>\\</code> 
-<code>\'</code> 
-<code>\"</code> 
-<code>\?</code> 
-<code>\a</code> 
-<code>\b</code> 
-<code>\f</code> 
-<code>\v</code> 
-<code>\0</code>
-<br>
+
 <b>Format Specifiers:</b>
 <ul>
   <li><code>%d</code> - Integer</li>
