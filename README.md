@@ -99,20 +99,16 @@ volatile;	while
 <b>Primary</b>
 
 ```c
-int;	char;	float;	double;	void;
-signed int;	unsigned int;	short;
-long;	long long;	_Bool;
+int, char, float, double, void, signed int, unsigned int, short, long, long long, _Bool;
 ```
-<b>Derived</b>
+<b>Derived</b><br>
 
-```c
-Function;	Array;	Pointer;	String;	
-```
+Function, Array, Pointer, String
 
 <b>User-Defined</b>
 
 ```c
-Structure;	Union;	Enum;	Typedef;
+struct, union, enum, typedef;
 ```
 
 
