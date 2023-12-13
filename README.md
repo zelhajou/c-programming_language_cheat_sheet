@@ -99,7 +99,8 @@ volatile;	while
 <b>Primary</b>
 
 ```c
-int, char, float, double, void, signed int, unsigned int, short, long, long long, _Bool;
+int, char, float, double, void,
+signed int, unsigned int, short, long, long long, _Bool;
 ```
 <b>Derived</b><br>
 
