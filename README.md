@@ -148,15 +148,6 @@ return 0; // indicate that program ended successfuly
 </td>
 </tr>
 
-<tr>
-<td>Keywords</td>
-<td>Strings</td>
-<td>Operators</td>
-<td>Constants</td>
-<td>Identifiers</td>
-<td>Special</td>
-<td>Characters</td>
-<td>
 
 ```c
 auto;		break;		case;		char;	const;		continue
