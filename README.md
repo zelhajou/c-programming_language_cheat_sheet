@@ -112,7 +112,7 @@ Simple, Machine Independent or Portable, Mid-level programming language, structu
 </tr>
 
 <tr>
-<td>Hello World</td>
+<td><a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">Hello World</a></td>
 <td>
  
 ```c
@@ -138,7 +138,7 @@ return 0; // indicate that program ended successfuly
 <td>TOKEN</td>
 <td>
 <ul>
-<li>Keywords</li>
+<li><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Basic/Keywords">Keywords</a></li>
 <li>Strings</li>
 <li>Operators</li>
 <li>Constants</li>
@@ -166,7 +166,7 @@ volatile;	while
 
 <tr>
 
-<td>Variables & Data Type</td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Basic/Variables%20and%20Data%20Types">Variables & Data Type</a></td>
 <td>
 
 <b>Rules for writing variable names:</b><br>
@@ -216,7 +216,7 @@ struct, union, enum, typedef;
 </tr>
 
 <tr>
-<td>Storage class </td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Basic/Variables%20and%20Data%20Types/Storage%20Classes">Storage class</a></td>
 <td>
 
  ```c
@@ -278,7 +278,7 @@ extern //Declares a variable or function that is defined in another file.
 
 <tr>
 <td>
-<a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Operators">Operators</a>
+<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Basics/Operators">Operators</a>
 </td>
 <td>
 <b>Unary:</b><br>
