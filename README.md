@@ -185,8 +185,6 @@ Function, Array, Pointer, String
 struct, union, enum, typedef;
 ```
 
-<a href="https://simple.m.wikipedia.org/wiki/File:ASCII-Table.svg">ASCII Table</a>
-
 </td>
 </tr>
 
@@ -233,8 +231,7 @@ struct, union, enum, typedef;
 <li>Carriage return</li>
 <li>Horizontal tab</li>
 </ul>
-
-
+<a href="https://simple.m.wikipedia.org/wiki/File:ASCII-Table.svg">ASCII Table</a>
 </td>
 </tr>
 
