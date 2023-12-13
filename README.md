@@ -503,7 +503,6 @@ uname(); // Get system information including the operating system name, version,
 ```
 </td>
 </tr>
-<tr>
 
 
 <tr>
