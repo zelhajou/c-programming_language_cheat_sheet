@@ -472,25 +472,50 @@ uname(); // Get system information including the operating system name, version,
 <td>Signal Handling</td>
 <td>
 
-<b>Signal Macros:</b>
+<b>Signal Macros</b>
 
-```c
-SIGINT // Interrupt from the keyboard (Ctrl+C).
-SIGTERM // Termination signal.
-SIGSEGV // Segmentation fault (invalid memory reference).
-SIGKILL // Kill signal (cannot be caught or ignored).
-SIGUSR1 // User-defined signals.
-SIGUSR2 // User-defined signals.
-```
+Standard Signals:
+
+<ul>
+<li>Termination Signals: <code>SIGABRT</code>, <code>SIGTERM</code></li>
+<li>Interrupt Signals: <code>SIGINT</code>, <code>SIGQUIT</code></li>
+<li>Fault Signals: SIGILL, <code>SIGFPE</code>, <code>SIGSEGV</code></li>
+<li>Alarm Signals: <code>SIGALRM</code>, <code>SIGVTALRM</code></li>
+<li>I/O Signals: <code>SIGPIPE</code>, <code>SIGPOLL</code></li>
+
+<li>Miscellaneous Signals:
+<code>SIGHUP</code>,
+<code>SIGBUS</code>,
+<code>SIGCHLD</code>,
+<code>SIGCONT</code>,
+<code>SIGSTOP</code>,
+<code>SIGTSTP</code>,
+<code>SIGTTIN</code>,
+<code>SIGTTOU</code>,
+<code>SIGUSR1</code>,
+<code>SIGUSR2</code>,
+<code>SIGPROF</code>,
+<code>SIGSYS</code>,
+<code>SIGTRAP</code>,
+<code>SIGURG</code>,
+<code>SIGXCPU</code>,
+<code>SIGXFSZ</code>
+</li>
+</ul>
+
+Real-time Signals:
+<ul>
+<li>Real-time Signals: <code>SIGRTMIN</code> to <code>SIGRTMAX</code></li>
+</ul>
 
 <b>Signal Functions:</b>
 
 
 ```c
-signal(): Set a function to handle a signal.
-sigaction(): Examine and change signal action.
-kill(): Send a signal to a process or a group of processes.
-alarm(): Set an alarm clock for the process.
+signal(): // Set a function to handle a signal.
+sigaction(): // Examine and change signal action.
+kill(): // Send a signal to a process or a group of processes.
+alarm(): // Set an alarm clock for the process.
 ```
 
 </td>
