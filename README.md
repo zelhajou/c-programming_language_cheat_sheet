@@ -357,8 +357,6 @@ fwrite(); // Writes data from the specified buffer to a stream
 </td>
 </tr>
 
-
-
 <tr>
 <td>File Management</td>
 <td>
@@ -378,7 +376,6 @@ rmdir(); // Removes an empty directory
 ```
 </td>
 </tr>
-
 
 <tr>
 <td>Memory Management</td>
@@ -501,6 +498,38 @@ Real-time Signals:
 </ul>
 
 <b>Signal Functions:</b>
+
+Signal Handling:
+```c
+signal(); // Establishes a signal handler for a specific signal.
+sigaction(); // Examines and changes the action associated with a specific signal.
+```
+
+Signal Sending:
+
+```c
+raise(); // Sends a signal to the calling process.
+kill(); // Sends a signal to a specified process or process group.
+```
+
+Signal Set Manipulation:
+
+```c
+sigemptyset(); // Initializes an empty signal set.
+sigfillset(); // Initializes a signal set to contain all signals.
+sigaddset(); // Adds a specified signal to a signal set.
+sigdelset(); // Removes a specified signal from a signal set.
+sigismember(); // Checks if a specified signal is a member of a signal set.
+```
+
+Signal Masking:
+
+```c
+sigprocmask(); // Examines and changes the calling process's signal mask.
+```
+
+
+
 
 
 ```c
