@@ -233,6 +233,15 @@ atof();		atoi();		atol();		ecvt();
 fcvt();		gcvt(); 	itoa();		ltoa();
 strtod();	strtol();	strtoul();	ultoa();
 ```
+
+<a href=#>String Manipulation Functions</a>
+
+```c
+strlen();	strcpy();	strncpy();	strcat();	strncat();
+strcmp();	strncmp();	strchr();	strrchr();	strstr();
+strtok();	strspn();	strcspn();	memcpy();	memmove();
+memset();	
+```
 </td>
 </tr>
 
