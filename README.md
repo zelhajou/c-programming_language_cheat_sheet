@@ -253,13 +253,18 @@ Input & Output
 </td>
 <td>
 <h4>Standard I/O (stdio.h)</h4>
-<b>Formatted:</b> <br>
-Input: <code>scanf()</code>, <code>fscanf()</code><br>
-Output: <code>printf(), <code>fprintf()</code></code><br>
-<b>Unformatted:</b><br>
-Input: <code>getchar()</code> <code>gets()</code> <br>
-Output: <code>putchar()</code> <code>puts()</code>
-<br>
+<b>Formatted:</b>
+<ul>
+<li>Input: <code>scanf()</code>, <code>fscanf()</code></li>
+<li>Output: <code>printf(), <code>fprintf()</code></code></li>
+</ul>
+
+<b>Unformatted:</b>
+<ul>
+<li>Input: <code>getchar()</code> <code>gets()</code></li>
+<li>Output: <code>putchar()</code> <code>puts()</code></code></li>
+</ul>
+
 <b>Escape Sequences:</b>
 <code>\n</code> 
 <code>\t</code> 
