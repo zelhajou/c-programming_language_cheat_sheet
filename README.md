@@ -15,16 +15,36 @@
 <td>C Programming Language</td>
 </tr>
 <tr>
-<td>Year</td>
-<td>Developed in 1972 by Dennis Ritchie at Bell Labs</td>
-</tr>
-<tr>
 <td>Paradigm</td>
-<td>Procedural, Imperative, Structured</td>
+<td>Imperative (procedural), structured</td>
 </tr>
 <tr>
-<td>Typing</td>
-<td>Static, Strong</td>
+<td>Designed by</td>
+<td>Dennis Ritchie</td>
+</tr>
+<tr>
+<td>Developer</td>
+<td>Dennis Ritchie & Bell Labs (creators)</td>
+</tr>
+<tr>
+<td>Standardization</td>
+<td>ANSI C, ISO C, C99, C11</td>
+</tr>
+<tr>
+<td>First appeared</td>
+<td>1972</td>
+</tr>
+<tr>
+<td>Stable release</td>
+<td>C18 / June 2018</td>
+</tr>
+<tr>
+<td>Typing discipline</td>
+<td>Static, weak, manifest, nominal</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Cross-platform</td>
 </tr>
 <tr>
 <td>Syntax Style</td>
@@ -35,21 +55,60 @@
 <td>.c (source code), .h (header files)</td>
 </tr>
 <tr>
-<td>Standardization</td>
-<td>ANSI C, ISO C, C99, C11</td>
-</tr>
-<tr>
-<td>Key Features</td>
-<td>Low-level manipulation, Efficient, Portability</td>
-</tr>
-
-<tr>
 <td>Compilation</td>
 <td>Compiled language</td>
 </tr>
 <tr>
 <td>Flow of Program</td>
 <td> <i>Source Code</i> -> <i>Preprocessor</i> (e.g., #include) -> <i>Compiler</i> (e.g., gcc) -> <i>Linker (Combines Object Files)</i> -> <i>Executable Program</i> -> <i>Run the Program</i></td>
+</tr>
+
+<tr>
+<td>Uses</td>
+<td>
+<ul>
+  <li>Operating systems like LINUX, UNIX.</li>
+  <li>CAD/ CAM Applications and Word processors.</li>
+  <li>Embedded systems like ATMs, printers.</li>
+  <li>RDBMS MySQL, Language Compilers and Interpreters, Print Spoolers, Loaders, Linkers, Assemblers, Text Editors, Automation tools, Network Drivers.</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>Advantages</td>
+<td>
+<ul>
+  <li>Relatively simple language</li>
+  <li>Reliable (able to be trusted)</li>
+  <li>Easy to understand and supports a rich set of data types</li>
+  <li>Easy to use, write, modify, and debug, and quick to learn</li>
+  <li>Can be compiled on a variety of computer platforms</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>Key Features</td>
+<td>
+Simple, Machine Independent or Portable, Mid-level programming language, structured programming language, Rich Library, Memory Management, Fast Speed, Pointers, Recursion, Extensible, Robust, Highly portable
+</td>
+</tr>
+<tr>
+<td>Major implementations</td>
+<td>K&R C, GCC, Clang, Intel C, C++Builder, Microsoft Visual C++, Watcom C</td>
+</tr>
+<tr>
+<td>Dialects</td>
+<td>Cyclone, Unified Parallel C, Split-C, Cilk, C*</td>
+</tr>
+<tr>
+<td>Influenced by</td>
+<td>B (BCPL, CPL), ALGOL 68, Assembly, PL/I, FORTRAN</td>
+</tr>
+<tr>
+<td>Influenced</td>
+<td>Numerous: AMPL, AWK, csh, C++, C--, C#, Objective-C, D, Go, Java, JavaScript, Julia, Limbo, LPC, Perl, PHP, Pike, Processing, Python, Ring, Rust, Seed7, Vala, Verilog (HDL), Nim</td>
 </tr>
 
 <tr>
@@ -76,7 +135,22 @@ return 0; // indicate that program ended successfuly
 </tr>
 
 <tr>
+<td>TOKEN</td>
+<td>
+<ul>
+Keywords
+</ul>
+</td>
+</tr>
+
+<tr>
 <td>Keywords</td>
+<td>Strings</td>
+<td>Operators</td>
+<td>Constants</td>
+<td>Identifiers</td>
+<td>Special</td>
+<td>Characters</td>
 <td>
 
 ```c
@@ -113,6 +187,54 @@ struct, union, enum, typedef;
 ```
 
 <a href="https://simple.m.wikipedia.org/wiki/File:ASCII-Table.svg">ASCII Table</a>
+
+</td>
+</tr>
+
+<tr>
+<td>Characters Set:</td>
+<td>
+<b>Alphabets:</b> <i>Upper case</i>, <i>Lower case</i><br>
+<b>Digits <i>[0−9]</i></b><br>
+<b>Special characters:</b>
+<code>~</code>,
+<code>!</code>,
+<code>#</code>,
+<code>$</code>,
+<code>%</code>,
+<code>^</code>,
+<code>&</code>,
+<code>*</code>,
+<code>(</code>,
+<code>)</code>,
+<code>_</code>,
+<code>+</code>,
+<code>|</code>,
+<code>\</code>,
+<code>`</code>,
+<code>-</code>,
+<code>=</code>,
+<code>{</code>,
+<code>}</code>,
+<code>[</code>,
+<code>]</code>,
+<code>:</code>,
+<code>"</code>,
+<code>;</code>,
+<code><</code>,
+<code>></code>,
+<code>?</code>,
+<code>,</code>,
+<code>.</code>,
+<code>/</code><br>
+<b>White spaces</b>:
+<ul>
+<li>Blank space</li>
+<li>New line</li>
+<li>Carriage return</li>
+<li>Horizontal tab</li>
+</ul>
+
 
 </td>
 </tr>
@@ -194,7 +316,7 @@ condition <code>?</code> value_if_true <code>:</code> value_if_false
 </td>
 <td>
 <b>Conditional statements:</b> <code>If-else</code> <code>Switch</code><br>
-<b>Loops:</b> <code>for</code> <code>while</code> <code>do-while</code> <code>goto</code>
+<b>Loops:</b> <code>for</code> <code>while</code> <code>do-while</code> <code>Break</code> <code>Continue</code> <code>goto</code>
 </td>
 </tr>
 
