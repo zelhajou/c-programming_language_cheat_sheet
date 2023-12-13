@@ -25,8 +25,6 @@ int main() {
 }
 ```
 
-
-
 # 2. **exec():**
 
 - **Description:** The `exec()` system call is used to replace the current process's image with a new program. It loads a new program into the current process's memory space and starts its execution.

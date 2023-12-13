@@ -357,7 +357,7 @@ condition <code>?</code> value_if_true <code>:</code> value_if_false
 
 <tr>
 <td>
-<a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Control%20Flow">Control Flow</a>
+<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Basic/Control%20Flow">Control Flow</a>
 </td>
 <td>
 <b>Conditional statements:</b> <code>If-else</code> <code>Switch</code><br>
@@ -374,7 +374,7 @@ If post-test is required, use do-while loop.
 </tr>
 
 <tr>
-<td>Header files</td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Modularity%20and%20Organization/Header%20Files">Header files</a></td>
 <td>
 <code>stdio.h</code>
 <code>stdlib.h</code>
@@ -397,7 +397,7 @@ If post-test is required, use do-while loop.
 </tr>
 
 <tr>
-<td>Preprocessor directives</td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Modularity%20and%20Organization/Preprocessor%20directives">Preprocessor directives</a></td>
 <td>
 
 ```c
@@ -460,7 +460,7 @@ memset();
 
 <tr>
 <td>
-<a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Input%20and%20Output">
+<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Basic/Input%20and%20Output">
 Input & Output
 </a>
 </td>
@@ -549,7 +549,7 @@ fwrite(); // Writes data from the specified buffer to a stream
 
 
 <tr>
-<td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Pointers">Pointers<a></td>
+<td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Pointers">Pointers</a></td>
 <td>
 <a href="">Types of Pointers: </a>
 <i>NULL Pointers</i>,
@@ -587,7 +587,7 @@ fwrite(); // Writes data from the specified buffer to a stream
 </tr>
 
 <tr>
-<td>File Management</td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/C-concept/File%20Management">File Management</a></td>
 <td>
 
 File Opening and Closing:
@@ -645,7 +645,7 @@ access(); Check file accessibility.
 </tr>
 
 <tr>
-<td>Memory Management</td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/C-concept/Memory%20Management">Memory Management</a></td>
 <td>
 <b>Memory Allocation:</b><br>
 <ul>
