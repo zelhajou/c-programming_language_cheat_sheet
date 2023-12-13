@@ -296,7 +296,7 @@ Output: <code>putchar()</code> <code>puts()</code>
 open(); // Opens a file and returns a file descriptor.
 read(); // Reads data from an open file into a buffer.
 writ(); // Writes data from a buffer to an open file.
-clos(); // Closes an open file.
+close(); // Closes an open file.
 lseek(); // Moves the file pointer associated with an open file.
 unlink(); // Removes a file from the file system.
 ```
@@ -388,6 +388,7 @@ Directory Operations:
 opendir(); // Open a directory stream for reading.
 readdir(); // Read a directory entry.
 closedir(); // Close a directory stream.
+getcwd(); // Get the current working directory.
 ```
 
 File and Directory Manipulation:
@@ -398,22 +399,17 @@ rmdir(); // Remove a directory.
 chdir(); // Change the current working directory.
 remove(); // Delete a file.
 rename(); // Rename a file or directory.
-```
-
-Other File System Functions:
-
-```c
-getcwd(); // Get the current working directory.
-stat(); // Get file status.
-chmod(); // Change file permissions.
-access(); // Check file accessibility.
-rename(); // Rename a file or directory.
-remove(); // Delete a file.
 link(); // Create a link to a file.
 unlink(); // Remove a link to a file.
+stat(); // Get file status.
 ```
 
+File Permission Functions:
 
+```c
+chmod(); Change file permissions.
+access(); Check file accessibility.
+```
 
 </td>
 </tr>
