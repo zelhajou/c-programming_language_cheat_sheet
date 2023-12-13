@@ -323,44 +323,36 @@ fwrite(); // Writes data from the specified buffer to a stream
 <td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Pointers">Pointers<a></td>
 <td>
 <a href="">Types of Pointers: </a>
-<ul>
-<li>NULL Pointers</li>
-<li>Void Pointers</li>
-<li>Function Pointers</li>
-<li>Array Pointers</li>
-<li>Double Pointe</li>
-</ul>
+<i>NULL Pointers</i>,
+<i>Void Pointers</i>,
+<i>Function Pointers</i>,
+<i>Array Pointers</i>,
+<i>Double Pointe</i>
 <br>
 <a href="">Pointer Operations: </a>
-<ul>
-<li>Declaration and Initialization</li>
-<li>Dereferencing</li>
-<li>Pointer Arithmetic</li>
-<li>Pointer Comparison</li>
-<li>Casting Pointer<l/i>
-</ul>
+<i>Declaration and Initialization</i>,
+<i>Dereferencing</i>,
+<i>Pointer Arithmetic</i>,
+<i>Pointer Comparison</i>,
+<i>Casting Pointer</i>
 <br>
 <a href="">Common Pointer Usages: </a>
-<ul>
-<li>Dynamic Memory Allocation</li>
-<li>Passing by Reference</li>
-<li>Array Manipulation</li>
-<li>Data Structures (Linked Lists)</li>
-<li>Callback Functions</li>
-<li>Pointers to Functions</li>
-<li>File Handling (File Pointers)</li>
-<li>Pointer to Structures</li>
-<li>String Manipulation</li>
-</ul>
+<i>Dynamic Memory Allocation</i>,
+<i>Passing by Reference</i>,
+<i>Array Manipulation</i>,
+<i>Data Structures (Linked Lists)</i>,
+<i>Callback Functions</i>,
+<i>Pointers to Functions</i>,
+<i>File Handling (File Pointers)</i>,
+<i>Pointer to Structures</i>,
+<i>String Manipulation</i>
 <br>
 <a href="">Pointer Pitfalls:</a>
-<ul>
-<li>Null Pointer Dereferencing</li>
-<li>Dangling Pointers</li>
-<li>Memory Leaks</li>
-<li>Uninitialized Pointers</li>
-<li>Pointer Arithmetic Error</li>
-</ul>
+<i>Null Pointer Dereferencing</i>,
+<i>Dangling Pointers</i>,
+<i>Memory Leaks</i>,
+<i>Uninitialized Pointers</i>,
+<i>Pointer Arithmetic Error</i>
 <br>
 </td>
 </tr>
