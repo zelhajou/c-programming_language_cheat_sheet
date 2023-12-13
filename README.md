@@ -361,36 +361,62 @@ fwrite(); // Writes data from the specified buffer to a stream
 <td>File Management</td>
 <td>
 
-```c
-open(); // Opens a file or creates a new file
-close(); // Closes a file descriptor
-read(); // Reads data from a file
-write(); // Writes data to a file
-lseek(); // Moves the file pointer within a file
-unlink(); // Removes a file from the file system
-rename(); // Renames a file
-chmod(); // Changes the permissions of a file
-stat(); // Returns information about a file
-mkdir(); // Creates a new directory
-rmdir(); // Removes an empty directory
-```
-</td>
-</tr>
+File Opening and Closing:
 
-<td>File System</td>
-<td>
+```c
+fopen(); // Open a file.
+fclose(); // Close a file.
+```
+Reading and Writing Data:
+
+```c
+fread(); // Read data from a file.
+fwrite(); // Write data to a file.
+```
+
+File Positioning:
+
+```c
+fseek(); // Move the file pointer to a specified position.
+ftell(); // Get the current position of the file pointer.
+rewind(); // Move the file pointer to the beginning of the file.
+```
+
+Directory Operations:
 
 ```c
 opendir(); // Open a directory stream for reading.
 readdir(); // Read a directory entry.
 closedir(); // Close a directory stream.
+```
+
+File and Directory Manipulation:
+
+```c
 mkdir(); // Create a new directory.
 rmdir(); // Remove a directory.
 chdir(); // Change the current working directory.
 remove(); // Delete a file.
 rename(); // Rename a file or directory.
 ```
+
+Other File System Functions:
+
+```c
+getcwd(); // Get the current working directory.
+stat(); // Get file status.
+chmod(); // Change file permissions.
+access(); // Check file accessibility.
+rename(); // Rename a file or directory.
+remove(); // Delete a file.
+link(); // Create a link to a file.
+unlink(); // Remove a link to a file.
+```
+
+
+
 </td>
+</tr>
 </tr>
 
 <tr>
