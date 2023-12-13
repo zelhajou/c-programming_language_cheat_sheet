@@ -91,6 +91,33 @@ volatile;	while
 </tr>
 
 <tr>
+<td>Data Type</td>
+<td>
+
+<b>Primary</b>
+
+```c
+int;	char;	float;	double;	void;
+signed int;	unsigned int;	short;
+long;	long long;	_Bool;
+```
+<b>Derived</b>
+
+```c
+Function;	Array;	Pointer;	String;	
+```
+
+<b>User-Defined</b>
+
+```c
+Structure;	Union;	Enum;	Typedef;
+```
+
+
+</td>
+</tr>
+
+<tr>
 <td>
 <a href="https://github.com/zelhajou/practice-c/tree/main/Basic%20%26%20Syntax/Operators">Operators</a>
 </td>
@@ -218,8 +245,8 @@ condition <code>?</code> value_if_true <code>:</code> value_if_false
 <a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions/Math%20Functions">Math Fucntions:</a><br>
 
 ```c
-abs(x);			sqrt(x);	pow(x, y);	sin(x),
-cos(x),			tan(x);		log(x);		ceil(x);
+abs(x);			sqrt(x);	pow(x, y);	sin(x);
+cos(x);			tan(x);		log(x);		ceil(x);
 floor(x);		round(x);	fmod(x, y);	fabs(x);
 asin(x);		atan(x);	cosh(x);	sinh(x);
 tanh(x);		exp(x);		log10(x);	cbrt(x);

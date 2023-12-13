@@ -48,19 +48,143 @@ All variables use **data-type** during declaration to restrict the type of data 
 
 #### Classification of data :
 
-- Primary
-	- `int` `char` `float` `double` `void`
-- Derived
-	- `Function` `Array` `Pointer` `Reference` `String`
-- User-Defined
-	- `Structure` `Union` `Enum` `Typedef`
 
-| Types          | Size in bytes | Keyword |
-|----------------|---------------|---------|
-| Integer        | 2             | int     |
-| Floating-point | 4             | float   |
-| Double         | 8             | double  |
-| Character      | 1             | char    |
+<table>
+  <tr>
+    <th>Data Type</th>
+    <th>Description</th>
+    <th>Size (bytes)</th>
+    <th>Classification</th>
+  </tr>
+  <tr>
+    <td>int</td>
+    <td>Integer data type, used for storing whole numbers.</td>
+    <td>4</td>
+    <td>Primary</td>
+  </tr>
+  <tr>
+    <td>char</td>
+    <td>Character data type, used for storing a single character.</td>
+    <td>1</td>
+    <td>Primary</td>
+  </tr>
+  <tr>
+    <td>float</td>
+    <td>Floating-point data type, used for storing decimal numbers.</td>
+    <td>4</td>
+    <td>Primary</td>
+  </tr>
+  <tr>
+    <td>double</td>
+    <td>Double-precision floating-point data type, used for more precision in decimal numbers.</td>
+    <td>8</td>
+    <td>Primary</td>
+  </tr>
+  <tr>
+    <td>void</td>
+    <td>Void data type, used to indicate that a function does not return any value.</td>
+    <td>N/A</td>
+    <td>Primary</td>
+  </tr>
+  <tr>
+    <td>signed int</td>
+    <td>Signed integer data type, similar to int.</td>
+    <td>4</td>
+    <td>Primary</td>
+  </tr>
+  <tr>
+    <td>unsigned int</td>
+    <td>Unsigned integer data type, used for storing only non-negative whole numbers.</td>
+    <td>4</td>
+    <td>Primary</td>
+  </tr>
+  <tr>
+    <td>short</td>
+    <td>Short integer data type, used for smaller whole numbers than int.</td>
+    <td>2</td>
+    <td>Primary</td>
+  </tr>
+  <tr>
+    <td>long</td>
+    <td>Long integer data type, used for larger whole numbers than int.</td>
+    <td>4 or 8</td>
+    <td>Primary</td>
+  </tr>
+  <tr>
+    <td>long long</td>
+    <td>Long long integer data type, used for very large whole numbers.</td>
+    <td>8</td>
+    <td>Primary</td>
+  </tr>
+  <!-- 
+  <tr>
+    <td>float _Complex</td>
+    <td>Complex number data type, used for representing complex numbers (C99).</td>
+    <td>Depends on the platform</td>
+    <td>Primary</td>
+  </tr>
+  <tr>
+    <td>double _Complex</td>
+    <td>Double-precision complex number data type (C99).</td>
+    <td>Depends on the platform</td>
+    <td>Primary</td>
+  </tr>
+  -->
+  <tr>
+    <td>_Bool</td>
+    <td>Boolean data type, used for true/false values.</td>
+    <td>1</td>
+    <td>Primary</td>
+  </tr>
+  <tr>
+    <td>Function</td>
+    <td>Derived data type representing a function pointer.</td>
+    <td>N/A</td>
+    <td>Derived</td>
+  </tr>
+  <tr>
+    <td>Array</td>
+    <td>Derived data type representing an array.</td>
+    <td>N/A</td>
+    <td>Derived</td>
+  </tr>
+  <tr>
+    <td>Pointer</td>
+    <td>Derived data type representing a pointer.</td>
+    <td>Depends on the architecture (e.g., 4 or 8)</td>
+    <td>Derived</td>
+  </tr>
+  <tr>
+    <td>String</td>
+    <td>Derived data type representing a string (array of characters).</td>
+    <td>N/A</td>
+    <td>Derived</td>
+  </tr>
+  <tr>
+    <td>Structure</td>
+    <td>User-defined data type representing a structure.</td>
+    <td>Depends on the size of its members</td>
+    <td>User-Defined</td>
+  </tr>
+  <tr>
+    <td>Union</td>
+    <td>User-defined data type representing a union.</td>
+    <td>Size is the maximum of its members</td>
+    <td>User-Defined</td>
+  </tr>
+  <tr>
+    <td>Enum</td>
+    <td>User-defined data type representing an enumeration.</td>
+    <td>Depends on the underlying type</td>
+    <td>User-Defined</td>
+  </tr>
+  <tr>
+    <td>Typedef</td>
+    <td>User-defined data type representing a type alias.</td>
+    <td>Depends on the underlying type</td>
+    <td>User-Defined</td>
+  </tr>
+</table>
 
 
 ##### Primary Data Types (Primitive): `int` `char` `float` `double` `void`
