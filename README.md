@@ -377,6 +377,22 @@ rmdir(); // Removes an empty directory
 </td>
 </tr>
 
+<td>File System</td>
+<td>
+
+```c
+opendir(); // Open a directory stream for reading.
+readdir(); // Read a directory entry.
+closedir(); // Close a directory stream.
+mkdir(); // Create a new directory.
+rmdir(); // Remove a directory.
+chdir(); // Change the current working directory.
+remove(); // Delete a file.
+rename(); // Rename a file or directory.
+```
+</td>
+</tr>
+
 <tr>
 <td>Memory Management</td>
 <td>
@@ -446,6 +462,8 @@ fork(); // Create a new process by duplicating the existing process.
 exec(); // Replace the current process with a new one.
 wait(); // Wait for a child process to terminate.
 exit(); // Terminate the current process.
+
+// Information Maintenance
 getpid(); // Get the process ID of the current process.
 getppid(); // Get the parent process ID.
 getuid(); // Get the user ID of the current process.
@@ -460,8 +478,6 @@ uname(); // Get system information including the operating system name, version,
 <tr>
 <td>Signal Handling</td>
 <td>
-
-<b>Signal Macros</b>
 
 Standard Signals:
 
@@ -546,7 +562,13 @@ alarm(): // Set an alarm clock for the process.
 
 <tr>
 <td>Error Handlling</td>
-<td></td>
+<td>
+
+```c
+perror();
+strerror();
+```
+</td>
 </tr>
 
 <tr>
