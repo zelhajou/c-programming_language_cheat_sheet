@@ -415,9 +415,9 @@ If post-test is required, use do-while loop.
 </tr>
 
 <tr>
-<td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions">Fucntions</a></td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Modularity%20and%20Organization/Functions">Fucntions</a></td>
 <td>
-<a href="https://github.com/zelhajou/c-programming-language/tree/main/Modularity%20and%20Organization/Functions/Math%20Functions">Math Fucntions:</a><br>
+<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Modularity%20and%20Organization/Functions/Math%20Functions">Math Fucntions:</a><br>
 
 ```c
 abs(x);			sqrt(x);	pow(x, y);	sin(x);
@@ -428,7 +428,7 @@ tanh(x);		exp(x);		log10(x);	cbrt(x);
 hypot(x, y);		fmin(x, y);	fmax(x, y);	isnan(x);
 isinf(x);
 ```
-<a href="">Data Conversion Functions:</a><br>
+<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Modularity%20and%20Organization/Functions/Data%20Conversion%20Functions">Data Conversion Functions:</a><br>
 
 ```c
 atof();		atoi();		atol();		ecvt();
@@ -436,7 +436,7 @@ fcvt();		gcvt(); 	itoa();		ltoa();
 strtod();	strtol();	strtoul();	ultoa();
 ```
 
-<a href="#">Character Classification Functions</a>
+<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Modularity%20and%20Organization/Functions/Character%20Classification%20Functions">Character Classification Functions</a>
 
 ```c
 isalnum();	isalpha();	isdigit();	islower();	isupper();	isspace();
@@ -445,7 +445,7 @@ ispunct();	isxdigit();	isprint();	isgraph();	iscntrl();	tolower();	toupper();
 
 
 
-<a href=#>String Manipulation Functions</a>
+<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Modularity%20and%20Organization/Functions/String%20Manipulation%20Functions">String Manipulation Functions</a>
 
 ```c
 strlen();	strcpy();	strncpy();	strcat();	strncat();
@@ -551,21 +551,21 @@ fwrite(); // Writes data from the specified buffer to a stream
 <tr>
 <td><a href="https://github.com/zelhajou/c-programming-language/tree/main/Pointers">Pointers</a></td>
 <td>
-<a href="">Types of Pointers: </a>
+<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Pointers/Types%20of%20Pointers">Types of Pointers: </a>
 <i>NULL Pointers</i>,
 <i>Void Pointers</i>,
 <i>Function Pointers</i>,
 <i>Array Pointers</i>,
 <i>Double Pointe</i>
 <br>
-<a href="">Pointer Operations: </a>
+<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Pointers/Pointer%20Operations">Pointer Operations: </a>
 <i>Declaration and Initialization</i>,
 <i>Dereferencing</i>,
 <i>Pointer Arithmetic</i>,
 <i>Pointer Comparison</i>,
 <i>Casting Pointer</i>
 <br>
-<a href="">Common Pointer Usages: </a>
+<a href=https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Pointers/Common%20Pointer%20Usages">Common Pointer Usages: </a>
 <i>Dynamic Memory Allocation</i>,
 <i>Passing by Reference</i>,
 <i>Array Manipulation</i>,
@@ -576,7 +576,7 @@ fwrite(); // Writes data from the specified buffer to a stream
 <i>Pointer to Structures</i>,
 <i>String Manipulation</i>
 <br>
-<a href="">Pointer Pitfalls:</a>
+<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Pointers/Pointer%20Pitfalls">Pointer Pitfalls:</a>
 <i>Null Pointer Dereferencing</i>,
 <i>Dangling Pointers</i>,
 <i>Memory Leaks</i>,
@@ -587,7 +587,7 @@ fwrite(); // Writes data from the specified buffer to a stream
 </tr>
 
 <tr>
-<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/C-concept/File%20Management">File Management</a></td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/System Call/File%20Management">File Management</a></td>
 <td>
 
 File Opening and Closing:
@@ -645,7 +645,7 @@ access(); Check file accessibility.
 </tr>
 
 <tr>
-<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/C-concept/Memory%20Management">Memory Management</a></td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/System Call/Memory%20Management">Memory Management</a></td>
 <td>
 <b>Memory Allocation:</b><br>
 <ul>
@@ -685,7 +685,7 @@ munmap(); //Unmap files or devices from memory.
 </tr>
 
 <tr>
-<td>Process management</td>
+<td><a href="Process Management">Process management</a></td>
 <td>
 <b>Process States</b>
 <ul>
@@ -706,7 +706,7 @@ munmap(); //Unmap files or devices from memory.
 <li>Parent and child process information</li>
 </ul>
 
-<b>Process control<b>
+<b><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/System Call/Process%20Control">Process control</a><b>
 
 ```c
 fork(); // Create a new process by duplicating the existing process.
@@ -811,7 +811,7 @@ alarm(): // Set an alarm clock for the process.
 
 
 <tr>
-<td>Error Handlling</td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Basic/Error%20Handling">Error Handlling</a></td>
 <td>
 
 ```c
@@ -829,7 +829,7 @@ strerror();
 <b>Text Editors</b>: Vim, Emacs.<br>
 <b>Compilers</b>: GCC (GNU Compiler Collection), Clang.<br>
 <b>Debuggers</b>: GDB (GNU Debugger).<br>
-<b>Build Systems</b>: Make and CMake.<br>
+<b>Build Systems</b>: <a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Software%20Development%20Practices/Build%20and%20Automation%20Tools/Makefile">Make</a> and CMake.<br>
 <b>Version Control</b>: git<br>
 <b>Libraries</b>: 
 <ul>
