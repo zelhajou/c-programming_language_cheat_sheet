@@ -113,6 +113,7 @@ struct, union, enum, typedef;
 ```
 
 
+
 </td>
 </tr>
 
@@ -260,6 +261,14 @@ fcvt();		gcvt(); 	itoa();		ltoa();
 strtod();	strtol();	strtoul();	ultoa();
 ```
 
+<a href="#">Character Classification Functions</a>
+
+```c
+isalnum();	isalpha();	isdigit();	islower();	isupper();	isspace();	ispunct();	isxdigit();	isprint();	isgraph();	iscntrl();	tolower();	toupper();
+```
+<a href="https://simple.m.wikipedia.org/wiki/File:ASCII-Table.svg">ASCII Table</a>
+
+
 <a href=#>String Manipulation Functions</a>
 
 ```c
@@ -268,6 +277,8 @@ strcmp();	strncmp();	strchr();	strrchr();	strstr();
 strtok();	strspn();	strcspn();	memcpy();	memmove();
 memset();	
 ```
+
+
 </td>
 </tr>
 
