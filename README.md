@@ -112,7 +112,7 @@ Function, Array, Pointer, String
 struct, union, enum, typedef;
 ```
 
-
+<a href="https://simple.m.wikipedia.org/wiki/File:ASCII-Table.svg">ASCII Table</a>
 
 </td>
 </tr>
@@ -264,9 +264,10 @@ strtod();	strtol();	strtoul();	ultoa();
 <a href="#">Character Classification Functions</a>
 
 ```c
-isalnum();	isalpha();	isdigit();	islower();	isupper();	isspace();	ispunct();	isxdigit();	isprint();	isgraph();	iscntrl();	tolower();	toupper();
+isalnum();	isalpha();	isdigit();	islower();	isupper();	isspace();
+ispunct();	isxdigit();	isprint();	isgraph();	iscntrl();	tolower();	toupper();
 ```
-<a href="https://simple.m.wikipedia.org/wiki/File:ASCII-Table.svg">ASCII Table</a>
+
 
 
 <a href=#>String Manipulation Functions</a>
