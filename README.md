@@ -138,7 +138,12 @@ return 0; // indicate that program ended successfuly
 <td>TOKEN</td>
 <td>
 <ul>
-Keywords
+<li>Keywords</li>
+<li>Strings</li>
+<li>Operators</li>
+<li>Constants</li>
+<li>Identifiers</li>
+<li>Special Characters</li>
 </ul>
 </td>
 </tr>
