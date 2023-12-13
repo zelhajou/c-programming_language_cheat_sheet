@@ -196,7 +196,10 @@ int area_ _of_ _sphere;
 <b>Primary</b>
 
 ```c
-int, char, float, double, void,
+int, char, float, double, void;
+
+// Data type modifiers: Signed - unsigned - short - long
+
 signed int, unsigned int, short, long, long long, _Bool;
 ```
 <b>Derived</b><br>
@@ -209,6 +212,20 @@ Function, Array, Pointer, String
 struct, union, enum, typedef;
 ```
 
+</td>
+</tr>
+
+<tr>
+<td>Storage class </td>
+<td>
+
+ ```c
+auto //Automatic storage duration. Default for local variables.
+register //Similar to auto, but suggests to the compiler to store the variable in a register for faster access.
+static // Preserves the value of the variable between function calls and has a file scope if declared outside functions.
+extern //Declares a variable or function that is defined in another file.
+ 
+ ```
 </td>
 </tr>
 
@@ -345,6 +362,14 @@ condition <code>?</code> value_if_true <code>:</code> value_if_false
 <td>
 <b>Conditional statements:</b> <code>If-else</code> <code>Switch</code><br>
 <b>Loops:</b> <code>for</code> <code>while</code> <code>do-while</code> <code>Break</code> <code>Continue</code> <code>goto</code>
+<ul>
+<li>
+If pre-test is required, use while or for loop.
+</li>
+<li>
+If post-test is required, use do-while loop.
+</li>
+</ul>
 </td>
 </tr>
 
@@ -468,22 +493,24 @@ Input & Output
 <code>\0</code>
 <br>
 <b>Format Specifiers:</b>
-<code>%d</code>
-<code>%ld</code>
-<code>%lld</code>
-<code>%u</code>
-<code>%lu</code>
-<code>%llu</code>
-<code>%f</code>
-<code>%lf</code>
-<code>%e, %E</code>
-<code>%c</code>
-<code>%s</code>
-<code>%p</code>
-<code>%x, %X</code>
-<code>%o</code>
-<code>%g, %G</code>
-<code>%%</code>
+<ul>
+  <li><code>%d</code> - Integer</li>
+  <li><code>%ld</code> - Long Integer</li>
+  <li><code>%lld</code> - Long Long Integer</li>
+  <li><code>%u</code> - Unsigned Integer</li>
+  <li><code>%lu</code> - Unsigned Long Integer</li>
+  <li><code>%llu</code> - Unsigned Long Long Integer</li>
+  <li><code>%f</code> - Float</li>
+  <li><code>%lf</code> - Double</li>
+  <li><code>%e, %E</code> - Exponential Notation</li>
+  <li><code>%c</code> - Character</li>
+  <li><code>%s</code> - String</li>
+  <li><code>%p</code> - Pointer</li>
+  <li><code>%x, %X</code> - Hexadecimal (Lowercase, Uppercase)</li>
+  <li><code>%o</code> - Octal</li>
+  <li><code>%g, %G</code> - Float in Shortest Form</li>
+  <li><code>%%</code> - Percentage</li>
+</ul>
 
 <h4>File Descriptors</h4>
 <ul>
@@ -818,6 +845,21 @@ rnal Libraries:</b> <code>OpenGL</code>, <code>SQLite</code>...</li>
 
 </tr>
 
+
+<tr>
+<td>C / C++ categorize statements into:</td>
+<td>
+
+<ul>
+<li><b>Selection<b> [<code>if</code> and <code>switch</code>]</li>
+<li><b>Iteration<b> [<code>while</code>, <code>for</code>, <code>do-while</code>]</li>
+<li><b>Jump<b> [<code>break</code>, <code>continue</code>, <code>goto</code> and <code>return</code>]</li>
+<li><b>Label<b> [<code>case</code> and <code>default</code>]</li>
+<li><b>Expression<b> [statements composed of a valid expression]</li>
+<li><b>Block<b> [blocks of code. Each block begins with { and ends with } and referred to a compound statements</li>
+</ul>
+</td>
+</tr>
 
 
 </table>
