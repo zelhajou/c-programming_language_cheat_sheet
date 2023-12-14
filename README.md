@@ -812,17 +812,6 @@ Signal Masking:
 sigprocmask(); // Examines and changes the calling process's signal mask.
 ```
 
-
-
-
-
-```c
-signal(): // Set a function to handle a signal.
-sigaction(): // Examine and change signal action.
-kill(): // Send a signal to a process or a group of processes.
-alarm(): // Set an alarm clock for the process.
-```
-
 </td>
 </tr>
 
