@@ -191,3 +191,10 @@ make my_test
 ## **Step 8: Customizing and Expanding**
 
 You can customize and expand your Makefile to suit your project's specific needs. This includes adding more targets, specifying additional flags, or integrating other build tools.
+
+
+
+
+# Resources :
+- [Easy Makfile](https://pulgamecanica.herokuapp.com/posts/makefiles)
+- [Make-A-Make: Clear the fog around Makefiles](https://github.com/Nuno-Jesus/Make-A-Make)
