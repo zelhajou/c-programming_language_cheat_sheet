@@ -1,8 +1,5 @@
-```bash
-┌─┐  ┌─┐┬─┐┌─┐┌─┐┬─┐┌─┐┌┬┐┌┬┐┬┌┐┌┌─┐  ┬  ┌─┐┌┐┌┌─┐┬ ┬┌─┐┌─┐┌─┐
-│    ├─┘├┬┘│ ││ ┬├┬┘├─┤│││││││││││ ┬  │  ├─┤││││ ┬│ │├─┤│ ┬├┤
-└─┘  ┴  ┴└─└─┘└─┘┴└─┴ ┴┴ ┴┴ ┴┴┘└┘└─┘  ┴─┘┴ ┴┘└┘└─┘└─┘┴ ┴└─┘└─┘
-```
+
+![ascii-text-art (4)](https://github.com/zelhajou/c-programming-language-cheat-sheet/assets/39954629/bf2d8005-7140-4e8e-a514-faaa9af8fd9f)
 
 <table>
 
@@ -837,6 +834,7 @@ strerror();
 <b>Compilers</b>: GCC (GNU Compiler Collection), Clang.<br>
 <b>Debuggers</b>: GDB (GNU Debugger).<br>
 <b>Build Systems</b>: <a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Software%20Development%20Practices/Build%20and%20Automation%20Tools/Makefile">Make</a> and CMake.<br>
+<b>Documentation</b>: Doxygen<br>
 <b>Version Control</b>: git<br>
 <b>Libraries</b>: 
 <ul>
@@ -847,9 +845,7 @@ Standard C Library:</b> <code>stdio.h</code>, <code>stdlib.h</code>...
 rnal Libraries:</b> <code>OpenGL</code>, <code>SQLite</code>...</li>
 </ul>
 </td>
-
-<b>Documentation</b>: Doxygen
-
+<td>
 </tr>
 
 
