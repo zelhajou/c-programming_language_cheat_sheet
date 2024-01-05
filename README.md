@@ -582,6 +582,24 @@ fread(); // Reads data from a stream into the specified buffer
 fwrite(); // Writes data from the specified buffer to a stream
 ```
 
+<h4>Buffered I/O</h4>
+
+```c
+fopen(); //Opens a file for reading or writing
+fclose(); // Closes the specified file stream
+fflush(); // Flushes the output buffer of a stream
+setvbuf(); // Sets the buffering mode and size for the specified stream
+fprintf(); // Writes formatted data to the specified stream
+fscanf();	// Reads formatted data from the specified stream
+fread(); // Reads data from a stream into the specified buffer
+fwrite(); // Writes data from the specified buffer to a stream
+```
+
+<h4>Terminal I/O Library Functions</h4>
+```c
+getchar(); putchar(); getch(); getche(); printf(); scanf(); ;
+```
+
 </td>
 </tr>
 
@@ -764,6 +782,22 @@ uname(); // Get system information including the operating system name, version,
 </tr>
 
 <tr>
+<td>Synchronization</td>
+<td>
+
+<ul>
+
+```c
+mutex
+semaphore
+condition variable
+```
+
+</ul>
+</td>
+</tr>
+
+<tr>
 <td>Thread Management</td>
 <td>
 
@@ -784,8 +818,6 @@ pthread_mutex_unlock()
 </ul>
 </td>
 </tr>
-
-
 
 <tr>
 <td>Signal Handling</td>
