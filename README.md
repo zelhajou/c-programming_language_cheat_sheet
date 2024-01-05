@@ -842,11 +842,19 @@ strerror();
 <td>
 
 <ul>
-pthread_create()
-pthread_join()
-pthread_exit()
+
+```c
+pthread_create(); // Used to start a new thread in the calling process
+pthread_join(); // Waits for the thread specified by thread to terminate
+pthread_exit(); // Terminates the calling thread.
+
+// Synchronization
+pthread_mutex_init()
+pthread_mutex_destroy()
 pthread_mutex_lock()
 pthread_mutex_unlock()
+```
+
 </ul>
 </td>
 </tr>
