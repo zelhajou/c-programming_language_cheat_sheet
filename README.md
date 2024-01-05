@@ -482,6 +482,17 @@ strtok();	strspn();	strcspn();	memcpy();	memmove();
 memset();	
 ```
 
+<a href="#">Time Library Functions</a>
+
+```c
+time();  localtime();  asctime();  strftime();
+```
+
+<a href="#">Random Number Generation Library Functions</a>
+
+```c
+rand();  srand();
+```
 
 </td>
 </tr>
@@ -822,6 +833,21 @@ sigprocmask(); // Examines and changes the calling process's signal mask.
 perror();
 strerror();
 ```
+</td>
+</tr>
+
+
+<tr>
+<td>Thread Management</td>
+<td>
+
+<ul>
+pthread_create()
+pthread_join()
+pthread_exit()
+pthread_mutex_lock()
+pthread_mutex_unlock()
+</ul>
 </td>
 </tr>
 
