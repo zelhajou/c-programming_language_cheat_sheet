@@ -209,6 +209,11 @@ Function, Array, Pointer, String
 struct, union, enum, typedef;
 ```
 
+<b>Others:</b><br>
+```c
+size_t, pid_t, uid_t, gid_t, FILE, DIR, struct timeval, struct tm, struct stat, struct sockaddr, struct sockaddr_in, pthread_t, pthread_mutex_t,
+```
+
 <b>Type Conversion:</b><br>
 Implicit Type Conversion:
 
@@ -218,27 +223,20 @@ unsigned int -> long -> unsigned ->
 long long -> float -> double -> long double
 ```
 
-<b>Escape Sequences:</b><br>
-<code>\n</code> 
-<code>\t</code> 
-<code>\r</code> 
-<code>\\</code> 
-<code>\'</code> 
-<code>\"</code> 
-<code>\?</code> 
-<code>\a</code> 
-<code>\b</code> 
-<code>\f</code> 
-<code>\v</code> 
-<code>\0</code>
-<br>
-
 Explicit Type Conversion:
 ```c
 (type) expression
 ```
 
+Macros
+```c
+NULL, EOF, stdin, stdout, stderr
+```
 
+<b>Constants</b>
+```c
+O_RDONLY, O_WRONLY, O_RDWR, O_CREAT, O_APPEND, O_TRUNC, S_IRWXU, S_IRUSR, S_IWUSR, S_IXUSR, S_IRWXG, S_IRGRP, S_IWGRP, S_IXGRP, S_IRWXO, S_IROTH, S_IWOTH, S_IXOTH
+```
 
 </td>
 </tr>
@@ -538,6 +536,21 @@ Input & Output
   <li><code>%%</code> - Percentage</li>
 </ul>
 
+<b>Escape Sequences:</b><br>
+<code>\n</code> 
+<code>\t</code> 
+<code>\r</code> 
+<code>\\</code> 
+<code>\'</code> 
+<code>\"</code> 
+<code>\?</code> 
+<code>\a</code> 
+<code>\b</code> 
+<code>\f</code> 
+<code>\v</code> 
+<code>\0</code>
+<br>
+
 <h4>File Descriptors</h4>
 <ul>
 <li>stdin (0)</li>
@@ -750,6 +763,29 @@ uname(); // Get system information including the operating system name, version,
 </td>
 </tr>
 
+<tr>
+<td>Thread Management</td>
+<td>
+
+<ul>
+
+```c
+pthread_create(); // Used to start a new thread in the calling process
+pthread_join(); // Waits for the thread specified by thread to terminate
+pthread_exit(); // Terminates the calling thread.
+
+// Synchronization
+pthread_mutex_init()
+pthread_mutex_destroy()
+pthread_mutex_lock()
+pthread_mutex_unlock()
+```
+
+</ul>
+</td>
+</tr>
+
+
 
 <tr>
 <td>Signal Handling</td>
@@ -837,27 +873,6 @@ strerror();
 </tr>
 
 
-<tr>
-<td>Thread Management</td>
-<td>
-
-<ul>
-
-```c
-pthread_create(); // Used to start a new thread in the calling process
-pthread_join(); // Waits for the thread specified by thread to terminate
-pthread_exit(); // Terminates the calling thread.
-
-// Synchronization
-pthread_mutex_init()
-pthread_mutex_destroy()
-pthread_mutex_lock()
-pthread_mutex_unlock()
-```
-
-</ul>
-</td>
-</tr>
 
 <tr>
 <td>Development Environments</td>
