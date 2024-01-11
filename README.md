@@ -109,6 +109,45 @@ Simple, Machine Independent or Portable, Mid-level programming language, structu
 </tr>
 
 <tr>
+<td>Development Environments</td>
+<td>
+
+<b>IDEs</b>: Visual Studio, Code::Blocks.<br>
+<b>Text Editors</b>: Vim, Emacs.<br>
+<b>Compilers</b>: GCC (GNU Compiler Collection), Clang.<br>
+<b>Debuggers</b>: GDB (GNU Debugger).<br>
+<b>Build Systems</b>: <a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Software%20Development%20Practices/Build%20and%20Automation%20Tools/Makefile">Make</a> and CMake.<br>
+<b>Documentation</b>: Doxygen<br>
+<b>Version Control</b>: git<br>
+<b>Libraries</b>: 
+<ul>
+<li>
+Standard C Library:</b> <code>stdio.h</code>, <code>stdlib.h</code>...
+</li>
+<li>
+rnal Libraries:</b> <code>OpenGL</code>, <code>SQLite</code>...</li>
+</ul>
+</td>
+<td>
+</tr>
+
+
+<tr>
+<td>C / C++ categorize statements into:</td>
+<td>
+
+<ul>
+<li><b>Selection<b> [<code>if</code> and <code>switch</code>]</li>
+<li><b>Iteration<b> [<code>while</code>, <code>for</code>, <code>do-while</code>]</li>
+<li><b>Jump<b> [<code>break</code>, <code>continue</code>, <code>goto</code> and <code>return</code>]</li>
+<li><b>Label<b> [<code>case</code> and <code>default</code>]</li>
+<li><b>Expression<b> [statements composed of a valid expression]</li>
+<li><b>Block<b> [blocks of code. Each block begins with { and ends with } and referred to a compound statements</li>
+</ul>
+</td>
+</tr>
+
+<tr>
 <td><a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program">Hello World</a></td>
 <td>
  
@@ -906,44 +945,7 @@ strerror();
 
 
 
-<tr>
-<td>Development Environments</td>
-<td>
 
-<b>IDEs</b>: Visual Studio, Code::Blocks.<br>
-<b>Text Editors</b>: Vim, Emacs.<br>
-<b>Compilers</b>: GCC (GNU Compiler Collection), Clang.<br>
-<b>Debuggers</b>: GDB (GNU Debugger).<br>
-<b>Build Systems</b>: <a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Software%20Development%20Practices/Build%20and%20Automation%20Tools/Makefile">Make</a> and CMake.<br>
-<b>Documentation</b>: Doxygen<br>
-<b>Version Control</b>: git<br>
-<b>Libraries</b>: 
-<ul>
-<li>
-Standard C Library:</b> <code>stdio.h</code>, <code>stdlib.h</code>...
-</li>
-<li>
-rnal Libraries:</b> <code>OpenGL</code>, <code>SQLite</code>...</li>
-</ul>
-</td>
-<td>
-</tr>
-
-
-<tr>
-<td>C / C++ categorize statements into:</td>
-<td>
-
-<ul>
-<li><b>Selection<b> [<code>if</code> and <code>switch</code>]</li>
-<li><b>Iteration<b> [<code>while</code>, <code>for</code>, <code>do-while</code>]</li>
-<li><b>Jump<b> [<code>break</code>, <code>continue</code>, <code>goto</code> and <code>return</code>]</li>
-<li><b>Label<b> [<code>case</code> and <code>default</code>]</li>
-<li><b>Expression<b> [statements composed of a valid expression]</li>
-<li><b>Block<b> [blocks of code. Each block begins with { and ends with } and referred to a compound statements</li>
-</ul>
-</td>
-</tr>
 
 
 </table>
