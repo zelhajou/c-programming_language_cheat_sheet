@@ -105,7 +105,10 @@ Simple, Machine Independent or Portable, Mid-level programming language, structu
 </tr>
 <tr>
 <td>Influenced</td>
-<td>Numerous: AMPL, AWK, csh, C++, C--, C#, Objective-C, D, Go, Java, JavaScript, Julia, Limbo, LPC, Perl, PHP, Pike, Processing, Python, Ring, Rust, Seed7, Vala, Verilog (HDL), Nim</td>
+<td>
+  AMPL, AWK, csh, C++, C--, C#, Objective-C, D, Go, Java, JavaScript, Julia, Limbo, LPC, Perl,
+  PHP, Pike, Processing, Python, Ring, Rust, Seed7, Vala, Verilog (HDL), Nim
+</td>
 </tr>
 
 <tr>
@@ -616,27 +619,15 @@ fclose(); // Closes the specified file stream
 fflush(); // Flushes the output buffer of a stream
 setvbuf(); // Sets the buffering mode and size for the specified stream
 fprintf(); // Writes formatted data to the specified stream
-fscanf();	// Reads formatted data from the specified stream
-fread(); // Reads data from a stream into the specified buffer
-fwrite(); // Writes data from the specified buffer to a stream
-```
-
-<h4>Buffered I/O</h4>
-
-```c
-fopen(); //Opens a file for reading or writing
-fclose(); // Closes the specified file stream
-fflush(); // Flushes the output buffer of a stream
-setvbuf(); // Sets the buffering mode and size for the specified stream
-fprintf(); // Writes formatted data to the specified stream
-fscanf();	// Reads formatted data from the specified stream
+fscanf(); // Reads formatted data from the specified stream
 fread(); // Reads data from a stream into the specified buffer
 fwrite(); // Writes data from the specified buffer to a stream
 ```
 
 <h4>Terminal I/O Library Functions</h4>
+
 ```c
-getchar(); putchar(); getch(); getche(); printf(); scanf(); ;
+printf(); scanf(); getchar(); putchar(); getch(); getche(); 
 ```
 
 </td>
