@@ -937,7 +937,9 @@ strerror();
 
 
 
-![luxa org-pattern-The_C_Programming_Language_logo svg](https://github.com/zelhajou/c-programming_language_cheat_sheet/assets/39954629/fc1f648d-87d6-4398-8557-15d807f6ec98)
 
 
 </table>
+
+![luxa org-pattern-The_C_Programming_Language_logo svg](https://github.com/zelhajou/c-programming_language_cheat_sheet/assets/39954629/fc1f648d-87d6-4398-8557-15d807f6ec98)
+
