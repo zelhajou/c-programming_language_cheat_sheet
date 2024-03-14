@@ -1,5 +1,6 @@
 
-![ascii-text-art (4)](https://github.com/zelhajou/c-programming-language-cheat-sheet/assets/39954629/bf2d8005-7140-4e8e-a514-faaa9af8fd9f)
+![ascii-text-art](https://github.com/zelhajou/c-programming_language_cheat_sheet/assets/39954629/2e12f72f-0360-4f13-af06-b71451a7f8cb)
+
 
 <table>
 
