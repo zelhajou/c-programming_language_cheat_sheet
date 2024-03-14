@@ -483,9 +483,9 @@ If post-test is required, use do-while loop.
 </tr>
 
 <tr>
-<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Modularity%20and%20Organization/Functions">Fucntions</a></td>
+<td><a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Modularity%20and%20Organization/Functions">Functions</a></td>
 <td>
-<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Modularity%20and%20Organization/Functions/Math%20Functions">Math Fucntions:</a><br>
+<a href="https://github.com/zelhajou/c-programming-language-cheat-sheet/tree/main/Modularity%20and%20Organization/Functions/Math%20Functions">Math Functions:</a><br>
 
 ```c
 abs(x);			sqrt(x);	pow(x, y);	sin(x);
