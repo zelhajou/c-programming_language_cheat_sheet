@@ -1,7 +1,4 @@
 
-![ascii-text-art](https://github.com/zelhajou/c-programming_language_cheat_sheet/assets/39954629/2e12f72f-0360-4f13-af06-b71451a7f8cb)
-
-
 <table>
 
 <tr>
