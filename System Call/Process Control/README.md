@@ -94,3 +94,8 @@ int main() {
     return 0;
 }
 ```
+
+## Useful links
+ - [Understanding fork() system call for new process creation](https://www.youtube.com/watch?v=PwxTbksJ2fo)
+ - [fork() and exec() System Calls](https://www.youtube.com/watch?v=IFEFVXvjiHY)
+ - [The fork() function in C](https://www.youtube.com/watch?v=cex9XrZCU14)
