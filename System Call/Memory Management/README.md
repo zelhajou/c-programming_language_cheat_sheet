@@ -120,3 +120,9 @@ In this example:
 4. After mapping, we can read and modify the content as needed.
 5. We use `msync` to synchronize the changes back to the file.
 6. Finally, we unmap the memory using `munmap`.
+
+
+
+## Useful links 
+- [MIT 6.004 L15: The Memory Hierarchy](https://www.youtube.com/watch?v=vjYF_fAZI5E&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-&index=24)
+- [MIT 6.004 L16: Cache Issues](https://www.youtube.com/watch?v=ajgC3-pyGlk&index=25&list=PLrRW1w6CGAcXbMtDFj205vALOGmiRc82-)
